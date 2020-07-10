@@ -1,0 +1,22 @@
+This is a website of CSC 174 students.
+
+Each student has at least one:
+
+a name
+a major
+a graduation class
+a picture
+an introduction paragraph
+extracurricular experience
+(forced) contact information
+
+
+Alejandro has:
+
+education experience and courses
+interests statement
+
+For Jack and Jaafar each interest has a picture
+
+Jaafar has reserach experience, but research experience is an extracurricular experience.
+
