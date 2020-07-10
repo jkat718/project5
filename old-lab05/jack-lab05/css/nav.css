@@ -1,0 +1,33 @@
+/*********************************************
+Nav Layout Styles
+**********************************************/
+nav {
+	background-color: #50d890;
+	position: relative;
+}
+nav li {
+	list-style-type: none;
+	font-weight: bold;
+}
+nav a {
+	padding: 20px;
+	text-decoration: none;
+	background-color: #50d890;
+	color: #272727;
+	display: block;
+}
+
+/*********************************************
+State Styles
+**********************************************/
+
+/*pseudo-class to highlight mouse on each webpage's nav element*/
+nav a:hover {
+	color: #50d890;
+	background-color: #272727;
+}
+
+/* controlled by the JavaScript Menu Highlighter plugin*/
+a.is-current {
+	background-color: #4f98ca;
+}
