@@ -1,41 +1,41 @@
 <?php include "inc/html-top.php"; ?>
 
-<body class="jack">
+<body class="alejandro">
 	<?php include "inc/nav.php"; ?>
 	<div class="background1">
 		<div class = "container1">
 			<header>
-				<figure class="personal-image"><img src="images/face.png" alt="Jack Mandell"></figure>
-				<h1>Jack Mandell</h1>
+				<figure class="personal-image"><img src="images/met.jpg" alt="Alejandro Ramirez"></figure>
+				<h1>Alejandro Ramirez</h1>
 			</header>
 
 			<div class="intro-statement">
-				<p>I am a Math and Computer Science double major studying at the University of Rochester. I am a rising sophomore, and outside of my majors, I enjoy passing the time with some of my favorite hobbies. These hobbies include art, cello, and fishing.</p>
+				<p>I'm a rising junior from Long Island, New York. I'm majoring in Computer Science and minoring in Digital Media Studies. Before UR, I spent the first semester of my college career at RPI studying Mechanical Engineering. Aside from computing, I love cooking, volunteering, hiking/the outdoors, and music!</p>
 			</div>
 		</div>
 	</div>
 	<div class="container2">
 		<section class = "extracurricular1">
-			<h2>Art</h2>
-			<p>For many years as a child, I took art lessons, and recently for the past two years over the summer, I have taught art lessons at studios near me. I enjoy painting the most and more specifically I like watercolor and acrylic. Many of my favorite things to paint include landscapes and still life.</p>
-			<figure class = "activity1"><img src="images/art.jpg" alt="art"></figure>
+			<h2>Volunteering</h2>
+			<p>I regularly volunteer at the Patchogue Neighbors Soup Kitchen in Patchgue, New York. I work as a line cook, and I started volunteering there in 2012. I cook breakfast for 100+ people, and I coordinate volunteers from the community and local school district.</p>
+			<figure class = "activity1"><img src="images/soupkit.jpg" alt="Soup kitchen"></figure>
 		</section>
 
 		<section class = "extracurricular2">
-			<h2>Cello</h2>
-			<p>I have played cello for many years and enjoy listening to classical music. Wanting to continue playing cello on a consistent basis during college, I joined the University's Chamber Orchestra and have met people who appreciate classical as much as I do. I have even joined a small string ensemble with a few freinds for the upcoming semester.</p>
-			<figure class = "activity2"><img src="images/cello.png" alt="cello"></figure>
+			<h2>Engineers Without Borders</h2>
+			<p>I am a project lead in Engineers Without Borders. My team and I are working on providing clean drinking water to a rural Tanzanian village. Currently, they have to travel 20km each way to a contaminated water source. I have several duties like coordinating meetings, communicating with contacts throughout the world, and writing applications for the national organization.</p>
+			<figure class = "activity2"><img src="images/ewb.jpg" alt="Tanzanian villager"></figure>
 		</section>
 
 		<section class = "extra-interest">
-			<h2>Fishing</h2>
-			<p>I love to go fishing in the ponds around my home, as well as exploring new waters when I am traveling. I am drawn to the unpredicatability of fishing and the adventure of exploring new areas I have never fished before. Fishing has taught me a lot about patience and persistence. The feeling of fighting a large fish never gets old.</p>
-			<figure class = "activity3"><img src="images/fishing.png" alt="fishing"></figure>
+			<h2>Artificial Intellegince</h2>
+			<p>I'm interested in computer vision, security, and machine learning - and how we can use these technologies to help people in their everyday life and their jobs.</p>
+			<figure class = "activity3"><img src="images/ai.jpg" alt="machine learning"></figure>
 		</section>
 
 		<section class = "contact-info">
 			<h2>Contact</h2>
-			<p>If you'd like to contact me, send me an email at email@gmail.com, or call me on 555-555-5555.</p>
+			<p>If you'd like to contact me, send me an email at aramir10@u.rochester.edu, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
 		</section>
 		
 		<footer>
