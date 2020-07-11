@@ -1,7 +1,9 @@
 <?php include "inc/html-top.php"; ?>
 
 <body class="jack">
+
 	<?php include "inc/nav.php"; ?>
+<div class="viewport">
 	<div class="background1">
 		<div class = "container1">
 			<header>
@@ -45,6 +47,7 @@
 	</div>
 
 	<?php include "inc/scripts.php"; ?>
+</div>
 </body>
 
 </html>

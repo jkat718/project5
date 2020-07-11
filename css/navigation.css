@@ -1,29 +1,32 @@
-.menu ul{
-	margin-top: 4px;
-	margin-bottom: 4px;
+nav {
+	background-color: #66FCF1;
+	margin-top: 0;
+	padding: 10px 0 0px 0;
 }
-
-.menu li {
-	display: inline-block;
-	margin: 10px 20px 0px 20px;
+nav ul {
 	list-style-type: none;
-	padding: 0px 0px 0px 0px;
+	display: flex;
+	flex-wrap: wrap;
 }
+nav li {
+	font-variant: small-caps;
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
-.menu a {
+}
+nav a {
+	text-decoration: none;
 	display: block;
-	padding: 0px 15px 0px 15px;
-	justify-content: center;
-	color : #333333;
-	font-family: 'Varela Round', sans-serif;
+	color: #697a7a;
+	margin-bottom: 20px;
 	font-size: 30px;
+
+
 }
+nav a:hover {
+	margin-bottom: 15px;
+	color: #0B0C10;
+	border-bottom: 5px solid #45A29E;
 
-
-.menu a:hover {
-	color: mediumvioletred;
-}
-
-.menu a.is-current {
-	color: mediumvioletred;
 }

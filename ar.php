@@ -1,7 +1,9 @@
 <?php include "inc/html-top.php"; ?>
 
 <body class="alejandro">
+
 	<?php include "inc/nav.php"; ?>
+<div class="viewport">
 	<div class="background1">
 		<div class = "container1">
 			<header>
@@ -15,16 +17,18 @@
 		</div>
 	</div>
 	<div class="container2">
-		<section class = "extracurricular1">
-			<h2>Volunteering</h2>
-			<p>I regularly volunteer at the Patchogue Neighbors Soup Kitchen in Patchgue, New York. I work as a line cook, and I started volunteering there in 2012. I cook breakfast for 100+ people, and I coordinate volunteers from the community and local school district.</p>
-			<figure class = "activity1"><img src="images/soupkit.jpg" alt="Soup kitchen"></figure>
-		</section>
+		
 
-		<section class = "extracurricular2">
+		<section class = "extracurricular1">
 			<h2>Engineers Without Borders</h2>
 			<p>I am a project lead in Engineers Without Borders. My team and I are working on providing clean drinking water to a rural Tanzanian village. Currently, they have to travel 20km each way to a contaminated water source. I have several duties like coordinating meetings, communicating with contacts throughout the world, and writing applications for the national organization.</p>
 			<figure class = "activity2"><img src="images/ewb.jpg" alt="Tanzanian villager"></figure>
+		</section>
+
+		<section class = "extracurricular2">
+			<h2>Volunteering</h2>
+			<p>I regularly volunteer at the Patchogue Neighbors Soup Kitchen in Patchgue, New York. I work as a line cook, and I started volunteering there in 2012. I cook breakfast for 100+ people, and I coordinate volunteers from the community and local school district.</p>
+			<figure class = "activity1"><img src="images/soupkit.jpg" alt="Soup kitchen"></figure>
 		</section>
 
 		<section class = "extra-interest">
@@ -45,6 +49,7 @@
 	</div>
 
 	<?php include "inc/scripts.php"; ?>
+</div>
 </body>
 
 </html>

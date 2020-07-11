@@ -1,159 +1,36 @@
-@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
 /*general*/
-
+.viewport {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 95%;
+}
 body {
-	background: #FFFFFF;
-/*	background: linear-gradient(0deg, rgba(73,73,73,1) 0%, rgba(148,148,148,1) 25%, rgba(255,154,185,1) 75%, rgba(255,105,166,1) 100%);*/
-	font-family: 'Varela Round', sans-serif;
+	background: #0B0C10;
+	color: #daf1f2;
+	font-family: 'Share Tech Mono', sans-serif;
 	line-height : 2.2em;
 	margin: 0px;
 }
-
-.container {
-	margin: 0 auto;
-	max-width: 1000px;
-	width: 95%;
-}
-
-.article {
-	margin-top: 50px;
-}
-
-::selection {
-	background: whitesmoke;
-}
-
-/*specific*/
-
-h1 {
-	/*color: pink;*/
-	/*font-family: 'Niconne', cursive;*/
-	font-size: 45px;
-	text-shadow: 1px 2px 2px indigo;
-}
-
-h2{
-		font-size: 40px;
-
-}
-
-h3 {
-
-	font-size: 25px;
-	font-weight : bold;
-	margin-bottom : 10px;
-	color: mediumvioletred;
-	padding: 10px 10px 0px 50px;
-}
-
-h4 {
-	font-size: 15px;
-	color: #000000;
-
-}
-
-
-a {
-	color : gray;
-	text-decoration : none;
-}
-
-a:hover {
-	color : mediumvioletred;
-}
-
-p {
-	margin: 20px 10px 20px 10px;
-}
-
-figure {
+.welcome {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 70px;
 	text-align: center;
-	padding: 100px 0px 100px 0px;
-	margin-top:0px;
+	width: 100%;
+	padding: 30px;
+	margin-top: -15px;
+	color: white;
 }
-
-img{
-	filter: grayscale(100%);
+h2 {
+	color: #66FCF1 ;
+	font-variant: small-caps;
+	background-color: 
 }
-
-img:hover{
-	filter: grayscale(0%);
+footer a, .homepage a {
+	text-decoration: none;
+	color: #ff1fb8;
 }
-
-/*Molly's grid layout*/
-
-.grida {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 25px;
+footer a:hover, .homepage a:hover {
+	color: #45A29E;
 }
-
-.gridi {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
-}
-
-/*quote design*/
-
-#aamilne, #play, #tolstoy, #lived, #quote, #quote2{
-	font-size: 35px;
-	margin-top: 90px;
-	font-weight: bold;
-}
-
-span{
-	font-size: 25px;
-	color: mediumvioletred;
-}
-
-
-/*index*/
-
-
-.intros{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 25px;
-}
-
-.homepage{
-	align-items: center;
-	justify-content: center;
-}
-
-.homepage li{
-	list-style-type: none;
-	padding: 5px;
-	max-width: 400px;
-}
-.homepage p{
-	margin: 0px 5px 0px 5px;
-}
-
-.homepage h2{
-	color: #000000;
-}
-
-.homepage ul{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-gap: 25px;
-}
-
-/* black background */
-.blacktop{
-	background-color: #000000;
-	min-height: 90vh;
-	border-bottom: solid 50px;
-	border-bottom-color: mediumvioletred;
-	color: #FFFFFF;
-	padding-bottom: 50px;
-}
-
-.blackcontent{
-	margin: 0 auto;
-	max-width: 1000px;
-	width: 95%;
-}
-
