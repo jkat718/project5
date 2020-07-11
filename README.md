@@ -1,6 +1,8 @@
 # project2
 Team New York
-Alejandro Ramirez, Jack Mandell, Jaafar Al Hadab
+- Alejandro Ramirez
+- Jack Mandell
+- Jaafar Al Hadab
 
 ## Classes:
 ### Individual pages:
@@ -19,6 +21,6 @@ Alejandro Ramirez, Jack Mandell, Jaafar Al Hadab
 ### index page:
 - home 
 	- 'student page'
-		-intrf (image)
-		-intrp (three word summary)
+		- intrf (image)
+		- intrp (three word summary)
 - link for course websits
