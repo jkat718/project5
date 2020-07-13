@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
-/*general*/
-.viewport {
-	margin: 0 auto;
-	max-width: 1000px;
-	width: 95%;
-}
+
+/* *****************
+	Base Styles
+***************** */
+
 body {
 	background: #0B0C10;
 	color: #b8d9d7;
@@ -13,36 +12,44 @@ body {
 	line-height : 2.2em;
 	margin: 0px;
 }
-.homepage h1 {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 70px;
-	text-align: center;
-	width: 100%;
-	padding: 0px;
-	color: white;
+
+/* *****************
+	Layout Styles
+***************** */
+
+.viewport {
+	margin: 0 auto;
+	max-width: 1000px;
+	width: 95%;
 }
+
+footer a:hover, .homepage a:hover, .contact-info a:hover {
+	color: #45A29E;
+}
+
 footer a, .homepage a, .contact-info a {
 	text-decoration: none;
 	color: #ff1fb8;
 }
-footer a:hover, .homepage a:hover, .contact-info a:hover {
-	color: #45A29E;
-}
+
 .homepage ul {
 	list-style-type: none;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+
 .homepage li {
 	border: 2px solid #66FCF1;
 	padding: 10px;
 	border-radius: 10px;
 	margin: 20px 0 20px 0;
 }
+
 .homepage h2, .intrp {
 	text-align: center;
 }
+
 .container2 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -51,6 +58,7 @@ footer a:hover, .homepage a:hover, .contact-info a:hover {
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
+
 .background1 {
 	border: 2px solid #66FCF1;
 	padding: 10px;
@@ -61,23 +69,37 @@ footer a:hover, .homepage a:hover, .contact-info a:hover {
 	padding: 10px;
 	border-radius: 10px;
 }
+
 .extra-interest {
 	border: 2px solid #fff200;
 	padding: 10px;
 	border-radius: 10px;
 }
+
 .contact-info {
 	border: 2px solid #ffb300;
 	padding: 10px;
 	border-radius: 10px;
 }
+
 .background1 figure {
 	float: right;
 }
+
 .container2 img {
 	display: inline-block;
 	width: 100%;
 }
 
+/* *****************
+	Modules
+***************** */
 
-
+.homepage h1 {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 70px;
+	text-align: center;
+	width: 100%;
+	padding: 0px;
+	color: white;
+}
