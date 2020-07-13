@@ -11,7 +11,7 @@
 						<li class="jh">
 							<h2>Jaafar Hadab</h2>
 							<figure class="intrf"><img src="images/back1.jpg" alt="Jaafar Hadab"><figcaption>Jaafar Hadab</figcaption></figure>
-							<p class="intrp">Research - Baja - Psychology</p><a href="jh.php" class="rdmore">Read more</a>
+							<p class="intrp">Baja - Research - Psychology</p><a href="jh.php" class="rdmore">Read more</a>
 						</li>
 
 						<li class="jm">
@@ -23,7 +23,7 @@
 						<li class="am">
 							<h2>Alejandro Ramirez</h2>
 							<figure class="intrf"><img src="images/met.jpg" alt="Alejandro Ramirez"><figcaption>Alejandro Ramirez</figcaption></figure>
-							<p class="intrp">Volunteering - EWB - AI</p><a href="ar.php" class="rdmore">Read more</a>
+							<p class="intrp">AI - EWB - Volunteering</p><a href="ar.php" class="rdmore">Read more</a>
 						</li>
 
 					</ul>
