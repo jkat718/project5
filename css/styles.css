@@ -87,8 +87,10 @@ footer a, .homepage a, .contact-info a {
 }
 
 .container2 img {
-	display: inline-block;
-	width: 100%;
+	/* display: inline-block;
+	width: 100%; */
+	display: block;
+	margin: 0 auto;
 }
 
 /* *****************
