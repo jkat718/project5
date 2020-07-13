@@ -77,7 +77,7 @@ footer a, .homepage a, .contact-info a {
 }
 
 .contact-info {
-	border: 2px solid #ffb300;
+	/* border: 2px solid #ffb300; */
 	padding: 10px;
 	border-radius: 10px;
 }

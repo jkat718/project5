@@ -40,7 +40,7 @@
 			</section>
 
 			<section class = "contact-info">
-				<h3>Contact</h3>
+				<h2>Contact</h2>
 				<p>If you'd like to contact me, send me an email at aramir10@u.rochester.edu, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
 			</section>
 		

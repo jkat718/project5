@@ -39,7 +39,7 @@
 			</section>
 
 			<section class = "contact-info">
-				<h3>Contact</h3>
+				<h2>Contact</h2>
 				<p>If you'd like to contact me, send me an email at email@gmail.com, or call me on 555-555-5555.</p>
 			</section>
 			
