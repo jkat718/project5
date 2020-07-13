@@ -64,20 +64,20 @@ footer a, .homepage a, .contact-info a {
 	padding: 10px;
 	border-radius: 10px;
 }
-.extracurricular1, .extracurricular2 {
+.extracurricular1, .extracurricular2, .extra-interest {
 	border: 2px solid #00ff84;
 	padding: 10px;
 	border-radius: 10px;
 }
 
-.extra-interest {
+/* .extra-interest {
 	border: 2px solid #fff200;
 	padding: 10px;
 	border-radius: 10px;
-}
+} */
 
 .contact-info {
-	/* border: 2px solid #ffb300; */
+	border: 2px solid #ffb300;
 	padding: 10px;
 	border-radius: 10px;
 }
