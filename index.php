@@ -22,7 +22,7 @@
 
 						<li class="am">
 							<h2>Alejandro Ramirez</h2>
-							<figure class="intrf"><img src="images/met.jpg" alt="Alejandro Ramirez"><figcaption>Alejandro Ramirez</figcaption></figure>
+							<figure class="intrf"><img src="images/met_resized.jpg" alt="Alejandro Ramirez"><figcaption>Alejandro Ramirez</figcaption></figure>
 							<p class="intrp">AI - EWB - Volunteering</p><a href="ar.php" class="rdmore">Read more</a>
 						</li>
 
