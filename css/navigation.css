@@ -31,13 +31,6 @@ nav a {
 	font-size: 30px;
 }
 
-nav a.is-current 
-{
-    color: #0075db;
-    font-weight: 1000;  
-}
-
-
 /* *****************
 	State
 ***************** */
@@ -46,4 +39,10 @@ nav a:hover {
 	margin-bottom: 15px;
 	color: #0B0C10;
 	border-bottom: 5px solid #45A29E;
+}
+
+nav a.is-current 
+{
+    color: #0075db;
+    font-weight: 1000;  
 }
