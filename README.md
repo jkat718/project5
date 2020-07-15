@@ -2,4 +2,4 @@
 Team New York
 - Huiyu Yang
 - Jason Katzner
-- 
+- Leah Goodwin
