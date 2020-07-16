@@ -13,6 +13,10 @@ body {
 	margin: 0px;
 }
 
+footer{
+  text-align:center;
+}
+
 /* *****************
 	Layout Styles
 ***************** */
@@ -68,7 +72,7 @@ footer a, .homepage a, .contact-info a {
   border-radius: 10px;
 }
 
-.extracurricular1, .extracurricular2, .extra-interest {
+.extra-interest {
 	border: 2px solid #00ff84;
 	padding: 25px;
 	border-radius: 10px;
@@ -77,7 +81,6 @@ footer a, .homepage a, .contact-info a {
 .contact-info {
 	border: 2px solid #ffb300;
 	padding: 25px;
-  padding-top: 35%;
 	border-radius: 10px;
 }
 

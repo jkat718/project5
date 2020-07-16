@@ -21,13 +21,13 @@
 
 		<div class="container2">
 
-			<section class = "extracurricular1">
+			<section class = "extra-interest">
 				<!-- <h3>Engineers Without Borders</h3> -->
 				<p>I am a project lead in Engineers Without Borders. My team and I are working on providing clean drinking water to a rural Tanzanian village. Currently, they have to travel 20km each way to a contaminated water source. I have several duties like coordinating meetings, communicating with contacts throughout the world, and writing applications for the national organization.</p>
 				<figure class = "activity2"><img src="images/ewb_resized.jpg" alt="Tanzanian villager"></figure>
 			</section>
 
-			<section class = "extracurricular2">
+			<section class = "extra-interest">
 				<!-- <h3>Volunteering</h3> -->
 				<p>I regularly volunteer at the Patchogue Neighbors Soup Kitchen in Patchgue, New York. I work as a line cook, and I started volunteering there in 2012. I cook breakfast for 100+ people, and I coordinate volunteers from the community and local school district.</p>
 				<figure class = "activity1"><img src="images/soupkit_resized.jpg" alt="Soup kitchen"></figure>
@@ -43,15 +43,15 @@
 				<h2>Contact</h2>
 				<p>If you'd like to contact me, send me an email at aramir10@u.rochester.edu, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
 			</section>
-		
-			<footer>
-				<p>CSC 174: Advanced Front-end Web Design and Development -<a href="http://csc174.org/lab01/aramir10/" target=_blank>Original Lab 01</a></p>
-			</footer>
 
 		</div>
 
+    <footer>
+        <p>CSC 174: Advanced Front-end Web Design and Development -<a href="http://csc174.org/lab01/aramir10/" target=_blank>Original Lab 01</a></p>
+    </footer>
+
 	<?php include "inc/scripts.php"; ?>
-	
+
 	</div>
 </body>
 
