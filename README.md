@@ -5,4 +5,4 @@ Team New York
 - Leah Goodwin
 
 ## Changes to Design
-- 
+- increased padding and margins; decreased proximity between header and interests to seperate them 
