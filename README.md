@@ -3,3 +3,6 @@ Team New York
 - Huiyu Yang
 - Jason Katzner
 - Leah Goodwin
+
+## Changes to Design
+- 
