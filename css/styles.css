@@ -5,8 +5,8 @@
 ***************** */
 
 body {
-	background: #0B0C10;
-	color: #b8d9d7;
+	background: #EBEBEB;
+  color: #212121;
 	font-family: 'Share Tech Mono', sans-serif;
 	line-height : 2.2em;
   letter-spacing: 0.05em;
@@ -17,23 +17,25 @@ footer{
   text-align:center;
 }
 
+h2{
+  text-align: center;
+}
 /* *****************
 	Layout Styles
 ***************** */
 
 .viewport {
 	margin: 0 auto;
-	max-width: 1000px;
-	width: 95%;
+	width: 85%;
 }
 
 footer a:hover, .homepage a:hover, .contact-info a:hover {
-	color: #45A29E;
+	color: #247BA0;
 }
 
 footer a, .homepage a, .contact-info a {
 	text-decoration: none;
-	color: #ff1fb8;
+	color: #F25F5C;
 }
 
 .homepage ul {
@@ -56,32 +58,36 @@ footer a, .homepage a, .contact-info a {
 }
 
 .container2 {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	grid-template-rows: auto auto auto auto;
-	grid-gap: 40px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   margin-top: 30px;
   margin-bottom: 20px;
 }
 
 .background1 {
-	margin-top: 100px;
+	margin: auto;
+  margin-top: 80px;
   margin-bottom: 100px;
-  border: 2px solid #66FCF1;
+  border: 2px solid #004E98;
   padding: 50px;
+  width: 90%;
   border-radius: 10px;
 }
 
 .extra-interest {
-	border: 2px solid #00ff84;
+	border: 2px solid #55ceb9;
 	padding: 25px;
 	border-radius: 10px;
+  width: 25%;
+  margin: 1.25%;
 }
 
 .contact-info {
-	border: 2px solid #ffb300;
-	padding: 25px;
-	border-radius: 10px;
+	border: 2px solid #ffbb66;
+  padding: 25px;
+  margin-top: 40px;
+  border-radius: 10px;
 }
 
 .background1 figure {

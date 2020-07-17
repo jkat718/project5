@@ -4,7 +4,7 @@
 ***************** */
 
 nav {
-	background-color: #66FCF1;
+	background-color: #004E98;
 	margin-top: 0;
 	padding: 10px 0 0px 0;
 }
@@ -26,7 +26,7 @@ nav li {
 nav a {
 	text-decoration: none;
 	display: block;
-	color: #697a7a;
+	color: #C0C0C0;
 	margin-bottom: 20px;
 	font-size: 30px;
 }
@@ -38,11 +38,11 @@ nav a {
 nav a:hover {
 	margin-bottom: 15px;
 	color: #0B0C10;
-	border-bottom: 5px solid #45A29E;
+	border-bottom: 5px solid #3A6EA5;
 }
 
-nav a.is-current 
+nav a.is-current
 {
-    color: #0075db;
-    font-weight: 1000;  
+    color: #F25F5C;
+    font-weight: 1000;
 }
