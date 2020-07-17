@@ -29,6 +29,10 @@ h3{
   border-bottom: 2px dotted;
 }
 
+em{
+  color: #004E98;
+}
+
 /* *****************
 	Layout Styles
 ***************** */

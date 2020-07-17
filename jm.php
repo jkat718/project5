@@ -54,7 +54,7 @@
 
 			<section class = "contact-info">
 				<h2>Contact</h2>
-				<p>If you'd like to contact me, send me an email at email@gmail.com, or call me on 555-555-5555.</p>
+				<p>If you'd like to contact me, send me an email at <em>email@gmail.com</em>, or call me on <em>555-555-5555</em>.</p>
 			</section>
 
 		</div>
