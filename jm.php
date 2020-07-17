@@ -4,7 +4,7 @@
 
 	<?php include "inc/nav.php"; ?>
 	<div class="viewport">
-		<div class="background1">
+		<div class="background">
       <figure><img src="images/face.png" alt="Jack Mandell"></figure>
 			<div>
 				<header>

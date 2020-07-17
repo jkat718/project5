@@ -77,7 +77,7 @@ footer a, .homepage a, .contact-info a {
   margin-top: 0px;
 }
 
-.background1 {
+.background {
 	margin: auto;
   margin-top: 80px;
   margin-bottom: 100px;
@@ -99,13 +99,13 @@ footer a, .homepage a, .contact-info a {
 .contact-info {
   margin: auto;
 	border: 2px solid #ffbb66;
-  padding: 25px;
+  padding: 50px;
   margin-top: 75px;
   border-radius: 10px;
   margin-bottom: 75px;
 }
 
-.background1 figure {
+.background figure {
 	float: right;
 }
 

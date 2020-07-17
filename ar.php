@@ -4,7 +4,7 @@
 
 	<?php include "inc/nav.php"; ?>
 	<div class="viewport">
-		<div class="background1">
+		<div class="background">
       <figure><img src="images/met_resized.jpg" alt="Alejandro Ramirez"></figure>
 			<div>
 				<header>
