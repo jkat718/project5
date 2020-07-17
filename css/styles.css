@@ -57,7 +57,7 @@ footer a, .homepage a, .contact-info a {
 	text-align: center;
 }
 
-.container2 {
+.container {
 	display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -95,7 +95,7 @@ footer a, .homepage a, .contact-info a {
 	float: right;
 }
 
-.container2 img {
+.container img {
 	display: block;
 	margin: 0 auto;
 }
