@@ -15,11 +15,20 @@ body {
 
 footer{
   text-align:center;
+  margin:0;
+  width: 100%;
+  background: #FEE3AF;
 }
 
 h2{
   text-align: center;
 }
+
+h3{
+  width: 100%;
+  border-bottom: 2px dotted;
+}
+
 /* *****************
 	Layout Styles
 ***************** */
@@ -62,7 +71,6 @@ footer a, .homepage a, .contact-info a {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 0px;
-  margin-bottom: 20px;
 }
 
 .background1 {
@@ -90,6 +98,7 @@ footer a, .homepage a, .contact-info a {
   margin-top: 40px;
   border-radius: 10px;
   width: 90%;
+  margin-bottom: 40px;
 }
 
 .background1 figure {
