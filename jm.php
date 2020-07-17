@@ -7,10 +7,7 @@
 		<div class="background">
       <figure><img src="images/face.png" alt="Jack Mandell"></figure>
 			<div>
-				<header>
-
 					<h1>Jack Mandell</h1>
-				</header>
 
 				<div class="intro-statement">
 					<p>I am a Math and Computer Science double major studying at the University of Rochester. I am a rising sophomore, and outside of my majors, I enjoy passing the time with some of my favorite hobbies. These hobbies include art, cello, and fishing.</p>

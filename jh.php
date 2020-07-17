@@ -7,9 +7,7 @@
 		<div class="background">
       <figure><img src="images/back1.jpg" alt="Jaafar Hadab"></figure>
 			<div>
-				<header>
 					<h1>Jaafar Hadab</h1>
-				</header>
 
 				<div class="intro-statement">
 					<p>I am a Mechanical Engineering Student at the University of Rochester. I am experienced in CAD modeling, Finite Element Analysis (FEA), and Manufacturing. I am also minoring in Computer Science and Psychology, from which I received experience in fundemental coding in Java and Python.</p>

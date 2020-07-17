@@ -7,9 +7,7 @@
 		<div class="background">
       <figure><img src="images/met_resized.jpg" alt="Alejandro Ramirez"></figure>
 			<div>
-				<header>
 					<h1>Alejandro Ramirez</h1>
-				</header>
 
 				<div class="intro-statement">
 					<p>I'm a rising junior from Long Island, New York. I'm majoring in Computer Science and minoring in Digital Media Studies. Before UR, I spent the first semester of my college career at RPI studying Mechanical Engineering. Aside from computing, I love cooking, volunteering, hiking/the outdoors, and music!</p>
