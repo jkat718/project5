@@ -50,13 +50,13 @@
           <img src="images/ai_resized.jpg" alt="machine learning">
         </div>
 			</section>
-
-			<section class = "contact-info">
-				<h2>Contact</h2>
-				<p>If you'd like to contact me, send me an email at <em>aramir10@u.rochester.edu</em>, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
-			</section>
-
 		</div>
+
+  <section class = "contact-info">
+    <h2>Contact</h2>
+    <p>If you'd like to contact me, send me an email at <em>aramir10@u.rochester.edu</em>, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
+  </section>
+
 	<?php include "inc/scripts.php"; ?>
 
 	</div>
