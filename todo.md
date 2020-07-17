@@ -1,12 +1,12 @@
-- Search the #lab6-critiques that refer to the design you have chosen
-	- Critiques doesn't really apply since a lot css has been changed 
-- Pick approved Z-pattern and F-pattern
-- Five webpages
-	-   A homepage (Z-pattern)
-	-  A student list (F-pattern)
-	-   Three student pages that uses any appropriate layout	
-- Navigation:
-	-   Only one link to go from the homepage to the student list, and one link back
-	-   The student list (F-pattern) does not need another navigation element to get to all the student pages; the links in the F-pattern will suffice
-	-   The three student pages need links to get back to the student list (F-pattern) and the homepage (Z-pattern)
-- Document all the design improvements
+- [x] Search the #lab6-critiques that refer to the design you have chosen
+	- Critiques doesn't really apply since a lot css has been changed
+- [x] Pick approved Z-pattern and F-pattern
+- [ ] Five webpages
+	- [ ] A homepage (Z-pattern)
+	- [ ] A student list (F-pattern)
+	- [x]  Three student pages that uses any appropriate layout	
+- [ ] Navigation:
+	- [ ]  Only one link to go from the homepage to the student list, and one link back
+	- [ ]  The student list (F-pattern) does not need another navigation element to get to all the student pages; the links in the F-pattern will suffice
+	- [x]  The three student pages need links to get back to the student list (F-pattern) and the homepage (Z-pattern)
+- [ ] Document all the design improvements
