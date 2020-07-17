@@ -61,7 +61,7 @@ footer a, .homepage a, .contact-info a {
 	display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
@@ -88,6 +88,7 @@ footer a, .homepage a, .contact-info a {
   padding: 25px;
   margin-top: 40px;
   border-radius: 10px;
+  width: 90%;
 }
 
 .background1 figure {
