@@ -55,7 +55,7 @@
 
 
         <footer>
-          CSC 174: Advanced Front-end Web Design and Development - <a href="http://docs.csc174.org" target=_blank>Course home page</a>
+          CSC 174: Advanced Front-end Web Design and Development
         </footer>
 
 </body>
