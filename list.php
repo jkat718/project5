@@ -3,7 +3,8 @@
 <body>
   <header>CSC 174 (FALL 2020)
     <a href="index.php">
-      < Home</a> </header> <div class="viewport">
+      < Home</a> </header>
+      <div class="viewport list">
         <h1>Student Index</h1>
         <h2>Team New York</h2>
 

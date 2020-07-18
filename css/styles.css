@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 /* *****************
 	Base Styles
 ***************** */
+
+a:hover{
+  color: #F25F5C;
+}
 
 body {
 	background: #EBEBEB;
@@ -17,8 +21,10 @@ header{
   background-color: #004E98;
   color: #EBEBEB;
   font-size: 30px;
-  padding: 20px;
+  padding: 30px;
   margin-top: 0;
+  padding-top: 35px;
+  padding-left: 60px;
 }
 
 header a{
@@ -39,7 +45,7 @@ footer{
 }
 
 h2{
-  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3{
@@ -58,15 +64,6 @@ em{
 .viewport {
 	margin: 0 auto;
 	width: 85%;
-}
-
-footer a:hover, .homepage a:hover, .contact-info a:hover {
-	color: #F25F5C;
-}
-
-footer a, .homepage a, .contact-info a {
-	text-decoration: none;
-	color: #540d6e;
 }
 
 .homepage ul {
@@ -131,7 +128,7 @@ footer a, .homepage a, .contact-info a {
 	display: block;
 	margin: 0 auto;
   position: relative;
-  top: 16.6666666666666666666666667%;
+  top: 16.667%;
 }
 
 .pic_interest{
@@ -140,6 +137,54 @@ footer a, .homepage a, .contact-info a {
   height: 300px;
   align-self: flex-end;
   border-radius: 0 0 5px 5px;
+}
+
+/* F LAYOUT */
+
+.grid-container {
+  display: grid;
+  grid-template-columns:auto auto auto;
+  grid-column-gap: 60px;
+}
+
+.row1, .row2, .row3{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.row1{
+  grid-row: 1;
+  padding-top: 20px;
+}
+
+.row1 h3{
+  margin-top: 5px;
+}
+
+.row2{
+  grid-row: 2;
+}
+
+.row3{
+  grid-row: 3;
+}
+
+.row3 h3{
+  margin-top: 5px;
+}
+
+.column2{
+  grid-column: 2;
+}
+
+.list h1{
+  text-align: right;
+  padding-top: 15px;
+}
+
+.list h2{
+  border-bottom: 3px solid;
+  margin-top:50px;
 }
 
 /* *****************
@@ -159,32 +204,21 @@ footer a, .homepage a, .contact-info a {
   padding: 25px;
 }
 
-/* F LAYOUT */
-
-.grid-container {
-	display: grid;
-	grid-template-columns:auto auto auto;
-  grid-column-gap: 60px;
+.row1 img{
+  border: 20px solid #ffbb66;
 }
 
-.row1{
-  grid-row: 1;
-  padding-bottom: 60px;
+.row2 img{
+  border: 20px solid #70C1B3;
 }
 
-.row2{
-  grid-row: 2;
-  padding-bottom: 60px;
+.row3 img{
+  border: 20px solid #004E98;
 }
 
-.row3{
-  grid-row: 3;
-  padding-bottom: 60px;
-}
-
-.column2{
-  grid-column: 2;
-
+footer a, .homepage a, .contact-info a {
+  text-decoration: none;
+  color: #540d6e;
 }
 
 
