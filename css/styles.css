@@ -158,3 +158,33 @@ footer a, .homepage a, .contact-info a {
 .description{
   padding: 25px;
 }
+
+/* F LAYOUT */
+
+.grid-container {
+	display: grid;
+	grid-template-columns:auto auto auto;
+  grid-column-gap: 60px;
+}
+
+.row1{
+  grid-row: 1;
+  padding-bottom: 60px;
+}
+
+.row2{
+  grid-row: 2;
+  padding-bottom: 60px;
+}
+
+.row3{
+  grid-row: 3;
+  padding-bottom: 60px;
+}
+
+.column2{
+  grid-column: 2;
+
+}
+
+
