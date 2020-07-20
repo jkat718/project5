@@ -203,8 +203,32 @@ em{
 
 .grid2{
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 6fr 1fr;
   grid-gap: 25px;
+}
+
+.align{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-top: 10px;
+}
+
+.align p{
+  max-width: 875px;
+}
+
+.align a{
+  text-align: right;
+  padding-right: 100px;
+  padding-top: 100px;
+  font-size: 23px;
+  min-width: 500px;
+  color: black;
+}
+
+.align a:hover{
+  color: #F25F5C;
+
 }
 
 
