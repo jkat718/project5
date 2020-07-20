@@ -8,20 +8,20 @@ a{
   color: #212121;
 }
 
-a:hover{
+a:hover {
   color: #F25F5C;
 }
 
 body {
 	background: #EBEBEB;
-  color: #212121;
+	color: #212121;
 	font-family: 'Share Tech Mono', sans-serif;
 	line-height : 2.2em;
-  letter-spacing: 0.05em;
+	letter-spacing: 0.05em;
 	margin: 0px;
 }
 
-header{
+header {
   background-color: #004E98;
   color: #EBEBEB;
   font-size: 30px;
@@ -36,7 +36,7 @@ header{
   background-position-x: 15px;
 }
 
-header a{
+header a {
   color: #EBEBEB;
   float:right;
   text-decoration:none;
@@ -46,24 +46,24 @@ header a:hover {
   text-decoration:underline;
 }
 
-footer{
-  text-align:center;
-  margin:0;
-  width: 100%;
-  background: #FEE3AF;
+footer {
+	text-align:center;
+	margin:0;
+	width: 100%;
+	background: #FEE3AF;
 }
 
-h2{
-  font-family: 'Montserrat', sans-serif;
+h2 {
+	font-family: 'Montserrat', sans-serif;
 }
 
-h3{
-  width: 100%;
-  border-bottom: 2px dotted;
+h3 {
+	width: 100%;
+	border-bottom: 2px dotted;
 }
 
-em{
-  color: #004E98;
+em {
+	color: #004E98;
 }
 
 /* *****************
@@ -96,37 +96,37 @@ em{
 
 .container {
 	display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0px;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 0px;
 }
 
 .background {
 	margin: auto;
-  margin-top: 80px;
-  margin-bottom: 100px;
-  border: 2px solid #004E98;
-  padding: 50px;
-  width: 90%;
-  border-radius: 10px;
+	margin-top: 80px;
+	margin-bottom: 100px;
+	border: 2px solid #004E98;
+	padding: 50px;
+	width: 90%;
+	border-radius: 10px;
 }
 
 .extra-interest {
 	border: 2px solid #55ceb9;
 	border-radius: 10px;
-  width: 30%;
-  margin: 1.25%;
-  display: flex;
-  flex-wrap: wrap;
+	width: 30%;
+	margin: 1.25%;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .contact-info {
-  margin: auto;
+	margin: auto;
 	border: 2px solid #ffbb66;
-  padding: 50px;
-  margin-top: 75px;
-  border-radius: 10px;
-  margin-bottom: 75px;
+	padding: 50px;
+	margin-top: 75px;
+	border-radius: 10px;
+	margin-bottom: 75px;
 }
 
 .background figure {
@@ -136,16 +136,16 @@ em{
 .container img {
 	display: block;
 	margin: 0 auto;
-  position: relative;
-  top: 16.667%;
+	position: relative;
+	top: 16.667%;
 }
 
-.pic_interest{
-  background: #70C1B3;
-  width: 400px;
-  height: 300px;
-  align-self: flex-end;
-  border-radius: 0 0 5px 5px;
+.pic_interest {
+	background: #70C1B3;
+	width: 400px;
+	height: 300px;
+	align-self: flex-end;
+	border-radius: 0 0 5px 5px;
 }
 
 
@@ -157,42 +157,42 @@ em{
   grid-column-gap: 60px;
 }
 
-.row1, .row2, .row3{
+.row1, .row2, .row3 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.row1{
+.row1 {
   grid-row: 1;
   padding-top: 20px;
 }
 
-.row1 h3{
+.row1 h3 {
   margin-top: 5px;
 }
 
-.row2{
+.row2 {
   grid-row: 2;
 }
 
-.row3{
+.row3 {
   grid-row: 3;
 }
 
-.row3 h3{
+.row3 h3 {
   margin-top: 5px;
 }
 
-.column2{
+.column2 {
   grid-column: 2;
 }
 
-.list h1{
+.list h1 {
   text-align: right;
   padding-top: 15px;
 }
 
-.list h2{
+.list h2 {
   border-bottom: 3px solid;
   margin-top:50px;
 }
@@ -205,7 +205,7 @@ em{
   padding-top: 40px;
 }
 
-.grid2{
+.grid2 {
   display: grid;
   grid-template-columns: 3.5fr 1fr;
   grid-gap: 30px;
@@ -213,11 +213,11 @@ em{
   margin-bottom: 40px;
 }
 
-.grid2 h2{
+.grid2 h2 {
   margin: 0;
 }
 
-.align{
+.align {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 20px;
@@ -225,7 +225,7 @@ em{
   margin-bottom: 30px;
 }
 
-.align a{
+.align a {
   color: #540d6e;
   font-weight: bold;
   text-align: center;
@@ -241,7 +241,7 @@ em{
   background: #72c0b3;
 }
 
-.align a:hover{
+.align a:hover {
   color: #cd375c;
   box-shadow: none;
 }
@@ -257,7 +257,7 @@ fieldset{
   margin-top: -10px;
 }
 
-input{
+input {
   width:95%;
 }
 
@@ -270,19 +270,19 @@ input{
 	color: white;
 }
 
-.description{
-  padding: 25px;
+.description {
+	padding: 25px;
 }
 
-.row1 img{
+.row1 img {
   border: 20px solid #ffbb66;
 }
 
-.row2 img{
+.row2 img {
   border: 20px solid #70C1B3;
 }
 
-.row3 img{
+.row3 img {
   border: 20px solid #004E98;
 }
 
@@ -291,7 +291,7 @@ footer a, .homepage a, .contact-info a {
   color: #540d6e;
 }
 
-.signInBtn{
+.signInBtn {
   float:right;
   margin-top: 20px;
   font-family: 'Montserrat', sans-serif;

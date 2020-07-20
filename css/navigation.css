@@ -20,7 +20,6 @@ nav li {
 	font-size: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
-
 }
 
 nav a {
@@ -41,8 +40,7 @@ nav a:hover {
 	text-decoration:underline;
 }
 
-nav a.is-current
-{
+nav a.is-current {
   color: #F25F5C;
   font-weight: 1000;
 }
