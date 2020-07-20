@@ -42,7 +42,9 @@
   <?php include "inc/scripts.php"; ?>
   <script src="sss/sss.js"></script>
   <script>
-    $('.slider').sss();
+    $('.slider').sss({
+      speed:5000
+    });
   </script>
 </body>
 

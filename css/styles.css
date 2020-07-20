@@ -207,31 +207,57 @@ em{
 
 .grid2{
   display: grid;
-  grid-template-columns: 6fr 1fr;
-  grid-gap: 25px;
+  grid-template-columns: 3.5fr 1fr;
+  grid-gap: 30px;
+  margin-top:10px;
+  margin-bottom: 40px;
+}
+
+.grid2 h2{
+  margin: 0;
 }
 
 .align{
   display: grid;
   grid-template-columns: 2fr 1fr;
-  padding-top: 10px;
-}
-
-.align p{
-  max-width: 875px;
+  padding: 20px;
+  padding-right: 0;
+  margin-bottom: 30px;
 }
 
 .align a{
-  text-align: right;
-  padding-right: 100px;
-  padding-top: 100px;
+  color: #540d6e;
+  font-weight: bold;
+  text-align: center;
+  margin: auto;
+  margin-left: 50px;
+  margin-top: 65px;
+  padding: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-size: 23px;
   min-width: 500px;
+  box-shadow: 7px 7px 0px 3px #fee3af;
+  background: #ffbe4a;
+}
+
+.align a:hover{
+  color: #cd375c;
+  box-shadow: none;
 }
 
 /* *****************
 	Modules
 ***************** */
+
+fieldset{
+  border: 10px solid #cd375c;
+  padding: 20px;
+}
+
+input{
+  width:95%;
+}
 
 .homepage h1 {
 	font-family: 'Titillium Web', sans-serif;
@@ -263,4 +289,9 @@ footer a, .homepage a, .contact-info a {
   color: #540d6e;
 }
 
-
+.signInBtn{
+  float:right;
+  margin-top: 20px;
+  font-family: 'Montserrat', sans-serif;
+  width:34%;
+}
