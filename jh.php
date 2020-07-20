@@ -54,12 +54,12 @@
 				<h2>Contact</h2>
 				<p>If you'd like to contact me, send me an email at <em>email@gmail.com</em>, or call me on <em>555-555-5555</em>.</p>
 			</section>
-			
-<?php include "inc/scripts.php"; ?>
 		</div>
 		
 		<footer>
 			CSC 174: Advanced Front-end Web Design and Development - <a href="http://csc174.org/lab01/aramir10/" target=_blank>Original Lab 01</a>
 		</footer>
+		
+<?php include "inc/scripts.php"; ?>
 	</body>
 </html>
