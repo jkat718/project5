@@ -144,6 +144,7 @@ em{
   border-radius: 0 0 5px 5px;
 }
 
+
 /* F LAYOUT */
 
 .grid-container {
@@ -191,6 +192,21 @@ em{
   border-bottom: 3px solid;
   margin-top:50px;
 }
+
+/* Z Layout */
+
+.viewport2 {
+	margin: 0 auto;
+  width: 95%;
+  padding-top: 40px;
+}
+
+.grid2{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 25px;
+}
+
 
 /* *****************
 	Modules
