@@ -1,8 +1,8 @@
 - [x] Search the #lab6-critiques that refer to the design you have chosen
 	- Critiques doesn't really apply since a lot css has been changed
 - [x] Pick approved Z-pattern and F-pattern
-- [ ] Five webpages
-	- [ ] A homepage (Z-pattern)
+- [x] Five webpages
+	- [x] A homepage (Z-pattern)
 	- [x] A student list (F-pattern)
 	- [x]  Three student pages that uses any appropriate layout	
 - [x] Navigation:
