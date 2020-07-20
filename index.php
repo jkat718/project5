@@ -3,26 +3,29 @@
 <body>
   <header>CSC 174 (FALL 2020)</header>
 
-  <div>
-    <div class="slider">
-      <img src="images/cover.jpg" alt="cover">
-      <img src="images/ar.jpg" alt="ar website">
-      <img src="images/jh.jpg" alt="jh website">
-      <img src="images/jm.jpg" alt="jm website">
+  <div class="viewport2">
+    <div class="grid2">
+      <div class="slider">
+        <img src="images/cover.jpg" alt="cover">
+        <img src="images/ar.jpg" alt="ar website">
+        <img src="images/jh.jpg" alt="jh website">
+        <img src="images/jm.jpg" alt="jm website">
+      </div>
+
+      <form>
+        <fieldset>
+          <legend>Login:</legend>
+          <label for="netid">NetID:</label><br>
+          <input type="text" id="netid" name="netid" value=""><br>
+          <label for="pword">Password:</label><br>
+          <input type="text" id="pword" name="pword" value=""><br>
+          <input type="submit" value="Sign in">
+        </fieldset>
+      </form>
     </div>
 
-    <form>
-      <fieldset>
-        <legend>Login:</legend>
-        <label for="netid">NetID:</label><br>
-        <input type="text" id="netid" name="netid" value=""><br>
-        <label for="pword">Password:</label><br>
-        <input type="text" id="pword" name="pword" value=""><br>
-        <input type="submit" value="Sign in">
-      </fieldset>
-    </form>
 
-    <article>
+    <article class="side">
       <h2>About CSC 174</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, minima quidem! Quidem officia ipsam nisi repudiandae aut quia, non dolores. Quia nobis, eaque inventore illum enim, nisi quasi laboriosam eius!</p>
     </article>
