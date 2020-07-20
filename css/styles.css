@@ -8,7 +8,7 @@ a{
   color: #212121;
 }
 
-a:hover{
+a:hover {
   color: #F25F5C;
 }
 
@@ -21,7 +21,7 @@ body {
 	margin: 0px;
 }
 
-header{
+header {
   background-color: #004E98;
   color: #EBEBEB;
   font-size: 30px;
@@ -36,7 +36,7 @@ header{
   background-position-x: 15px;
 }
 
-header a{
+header a {
   color: #EBEBEB;
   float:right;
   text-decoration:none;
@@ -46,23 +46,23 @@ header a:hover {
   text-decoration:underline;
 }
 
-footer{
+footer {
 	text-align:center;
 	margin:0;
 	width: 100%;
 	background: #FEE3AF;
 }
 
-h2{
+h2 {
 	font-family: 'Montserrat', sans-serif;
 }
 
-h3{
+h3 {
 	width: 100%;
 	border-bottom: 2px dotted;
 }
 
-em{
+em {
 	color: #004E98;
 }
 
@@ -140,7 +140,7 @@ em{
 	top: 16.667%;
 }
 
-.pic_interest{
+.pic_interest {
 	background: #70C1B3;
 	width: 400px;
 	height: 300px;
@@ -157,42 +157,42 @@ em{
   grid-column-gap: 60px;
 }
 
-.row1, .row2, .row3{
+.row1, .row2, .row3 {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.row1{
+.row1 {
   grid-row: 1;
   padding-top: 20px;
 }
 
-.row1 h3{
+.row1 h3 {
   margin-top: 5px;
 }
 
-.row2{
+.row2 {
   grid-row: 2;
 }
 
-.row3{
+.row3 {
   grid-row: 3;
 }
 
-.row3 h3{
+.row3 h3 {
   margin-top: 5px;
 }
 
-.column2{
+.column2 {
   grid-column: 2;
 }
 
-.list h1{
+.list h1 {
   text-align: right;
   padding-top: 15px;
 }
 
-.list h2{
+.list h2 {
   border-bottom: 3px solid;
   margin-top:50px;
 }
@@ -205,7 +205,7 @@ em{
   padding-top: 40px;
 }
 
-.grid2{
+.grid2 {
   display: grid;
   grid-template-columns: 3.5fr 1fr;
   grid-gap: 30px;
@@ -213,11 +213,11 @@ em{
   margin-bottom: 40px;
 }
 
-.grid2 h2{
+.grid2 h2 {
   margin: 0;
 }
 
-.align{
+.align {
   display: grid;
   grid-template-columns: 2fr 1fr;
   padding: 20px;
@@ -225,7 +225,7 @@ em{
   margin-bottom: 30px;
 }
 
-.align a{
+.align a {
   color: #540d6e;
   font-weight: bold;
   text-align: center;
@@ -241,7 +241,7 @@ em{
   background: #ffbe4a;
 }
 
-.align a:hover{
+.align a:hover {
   color: #cd375c;
   box-shadow: none;
 }
@@ -250,12 +250,12 @@ em{
 	Modules
 ***************** */
 
-fieldset{
+fieldset {
   border: 10px solid #cd375c;
   padding: 20px;
 }
 
-input{
+input {
   width:95%;
 }
 
@@ -268,19 +268,19 @@ input{
 	color: white;
 }
 
-.description{
+.description {
 	padding: 25px;
 }
 
-.row1 img{
+.row1 img {
   border: 20px solid #ffbb66;
 }
 
-.row2 img{
+.row2 img {
   border: 20px solid #70C1B3;
 }
 
-.row3 img{
+.row3 img {
   border: 20px solid #004E98;
 }
 
@@ -289,7 +289,7 @@ footer a, .homepage a, .contact-info a {
   color: #540d6e;
 }
 
-.signInBtn{
+.signInBtn {
   float:right;
   margin-top: 20px;
   font-family: 'Montserrat', sans-serif;
