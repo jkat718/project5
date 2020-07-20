@@ -15,7 +15,7 @@
 							<h3>Jaafar Hadab</h3>
 							<p>I am a Mechanical Engineering Student at the University of Rochester. I am experienced in CAD modeling, Finite Element Analysis (FEA), and Manufacturing. I am also minoring in Computer Science and Psychology, from which I received experience in fundemental coding in Java and Python.</p>
 						</div>
-						<a href="jh.php">Personal Page</a>
+						<a class="personal_page_link" href="jh.php">Personal Page ></a>
 					</div>
 				</section>
 				
@@ -26,7 +26,7 @@
 							<h3>Jack Mandall</h3>
 							<p>I am a Math and Computer Science double major studying at the University of Rochester. I am a rising sophomore, and outside of my majors, I enjoy passing the time with some of my favorite hobbies. These hobbies include art, cello, and fishing.</p>
 						</div>
-						<a href="jm.php">Personal Page</a>
+						<a class="personal_page_link" href="jm.php">Personal Page ></a>
 					</div>
 				</section>
 
@@ -37,7 +37,7 @@
 							<h3>Alejandro Ramirez</h3>
 							<p>I'm a rising junior from Long Island, New York. I'm majoring in Computer Science and minoring in Digital Media Studies. Before UR, I spent the first semester of my college career at RPI studying Mechanical Engineering. Aside from computing, I love cooking, volunteering, hiking/the outdoors, and music!</p>
 						</div>
-						<a href="ar.php">Personal Page</a>
+						<a class="personal_page_link" href="ar.php">Personal Page ></a>
 					</div>
 				</section>
 			</div>

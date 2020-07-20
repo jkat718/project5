@@ -298,3 +298,8 @@ footer a, .homepage a, .contact-info a {
   font-family: 'Montserrat', sans-serif;
   width:34%;
 }
+
+.personal_page_link {
+	margin-top: 5px;
+	font-size: 1.17em;
+}
