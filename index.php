@@ -12,14 +12,14 @@
         <img src="images/jm.jpg" alt="jm website">
       </div>
 
-      <form>
+      <form method="post">
         <fieldset>
-          <legend>Login:</legend>
+          <legend><h2>Login:</h2></legend>
           <label for="netid">NetID:</label><br>
           <input type="text" id="netid" name="netid" value=""><br>
           <label for="pword">Password:</label><br>
           <input type="text" id="pword" name="pword" value=""><br>
-          <input type="submit" value="Sign in">
+          <input type="submit" value="Sign in" class="signInBtn">
         </fieldset>
       </form>
     </div>
