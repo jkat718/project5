@@ -25,7 +25,7 @@ nav li {
 nav a {
 	text-decoration: none;
 	display: block;
-	color: #C0C0C0;
+	color: white;
 	margin-bottom: 20px;
 	font-size: 30px;
 }
@@ -36,12 +36,12 @@ nav a {
 
 nav a:hover {
 	margin-bottom: 15px;
-	color: #0B0C10;
-	border-bottom: 5px solid #3A6EA5;
+	color: #F25F5C;
+	text-decoration:underline;
 }
 
 nav a.is-current
 {
-    color: #F25F5C;
-    font-weight: 1000;
+  color: #F25F5C;
+  font-weight: 1000;
 }
