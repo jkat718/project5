@@ -4,6 +4,10 @@
 	Base Styles
 ***************** */
 
+a{
+  color: #212121;
+}
+
 a:hover{
   color: #F25F5C;
 }
@@ -223,14 +227,7 @@ em{
   padding-top: 100px;
   font-size: 23px;
   min-width: 500px;
-  color: black;
 }
-
-.align a:hover{
-  color: #F25F5C;
-
-}
-
 
 /* *****************
 	Modules
