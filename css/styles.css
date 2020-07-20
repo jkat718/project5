@@ -238,8 +238,8 @@ em {
   padding-right: 20px;
   font-size: 23px;
   min-width: 500px;
-  box-shadow: 7px 7px 0px 3px #fee3af;
-  background: #ffbe4a;
+  box-shadow: 7px 7px 0px 3px #91d2c7;
+  background: #72c0b3;
 }
 
 .align a:hover {
@@ -251,9 +251,11 @@ em {
 	Modules
 ***************** */
 
-fieldset {
-  border: 10px solid #cd375c;
+fieldset{
+  border: 10px solid #ffbe4a;
   padding: 20px;
+  padding-bottom: 30px;
+  margin-top: -10px;
 }
 
 input {
