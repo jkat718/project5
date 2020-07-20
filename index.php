@@ -28,7 +28,8 @@
     <div class="align">
       <article>
         <h2>About CSC 174</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, minima quidem! Quidem officia ipsam nisi repudiandae aut quia, non dolores. Quia nobis, eaque inventore illum enim, nisi quasi laboriosam eius!</p>
+        <p>“Front-end” is an industry term that refers to the focus on HTML, CSS and JavaScript, which differentiates this course from the formal programming courses.
+          Topics include Information Architecture, visual design, use of client libraries (mostly JS), and asset management strategies.</p>
       </article>
 
       <div class="align"><a href="list.php">Head to the Student Index ></a></div>
