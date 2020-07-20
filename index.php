@@ -25,12 +25,14 @@
     </div>
 
 
-    <article class="side">
-      <h2>About CSC 174</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, minima quidem! Quidem officia ipsam nisi repudiandae aut quia, non dolores. Quia nobis, eaque inventore illum enim, nisi quasi laboriosam eius!</p>
-    </article>
+    <div class="align">
+      <article>
+        <h2>About CSC 174</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, minima quidem! Quidem officia ipsam nisi repudiandae aut quia, non dolores. Quia nobis, eaque inventore illum enim, nisi quasi laboriosam eius!</p>
+      </article>
 
-    <div><a href="list.php">Head to the Student Index ></a></div>
+      <div class="align"><a href="list.php">Head to the Student Index ></a></div>
+    </div>
   </div>
 
   <footer>
