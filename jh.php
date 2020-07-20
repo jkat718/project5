@@ -24,9 +24,9 @@
 						<h3>Baja SAE</h3>
 						<p>I am a member of the University of Rochester Baja SAE team. Each year, we design and build an offroad vehicle to compete with other baja teams from all around the world. I currently serve as the suspension team.</p>
 					</div>
-					<div class="pic_interest">
+					<figure class="pic_interest">
 						<img src="images/back3_resized.jpg" alt="Doing Baja">
-					</div>
+					</figure>
 				</section>
 
 				<section class = "extra-interest">
@@ -34,9 +34,9 @@
 						<h3>Research</h3>
 						<p>I currently work with the Dias laboratory group in the University of Rochester. The Dias group uses Diamond Anvil Cells (DACs) to study matter at extreme states. My current work with the group involves using Finite Element Models to study the shapes of the tips of diamonds in DACs in order to optimize for highest possible pressure.</p>
 					</div>
-					<div class="pic_interest">
+					<figure class="pic_interest">
 						<img src="images/back2_resized.jpg" alt="Doing Research">
-					</div>
+					</figure>
 				</section>
 
 				<section class = "extra-interest">
@@ -44,9 +44,9 @@
 						<h3>Personality Psychology</h3>
 						<p>I also have a keen interest in personality psychology, psychodynamic theories, and theories of development, and I am interested in how we can apply these concepts to our everyday lives.</p>
 					</div>
-					<div class="pic_interest">
+					<figure class="pic_interest">
 						<img src="images/back4_resized.jpg" alt="Conversing">
-					</div>
+					</figure>
 				</section>
 			</div>
 
