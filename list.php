@@ -1,6 +1,7 @@
 <?php include "inc/html-top.php"; ?>
 	<body>
-		<header>CSC 174 (FALL 2020)
+		<header>
+			CSC 174 (FALL 2020)
 			<a href="index.php">< Home</a>
 		</header>
 		
@@ -44,7 +45,7 @@
         </div>
 
         <footer>
-          CSC 174: Advanced Front-end Web Design and Development
+			CSC 174: Advanced Front-end Web Design and Development
         </footer>
 	</body>
 </html>
