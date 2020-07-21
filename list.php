@@ -2,9 +2,9 @@
 	<body>
 		<header>
 			CSC 174 (FALL 2020)
-			<a href="index.php">< Home</a>
+			<a href="index.php">&lt;Home</a>
 		</header>
-		
+
 		<div class="viewport list">
 			<h1>Student Index</h1>
 			<h2>Team New York</h2>
@@ -19,7 +19,7 @@
 						<a class="personal_page_link" href="jh.php">Personal Page ></a>
 					</div>
 				</section>
-				
+
 				<section class="row2">
 					<div class="grid-container">
 						<img src="images/face.png" alt="Jack Mandell">
