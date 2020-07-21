@@ -49,13 +49,13 @@
 					</figure>
 				</section>
 			</div>
-			
+
 			<section class = "contact-info">
 				<h2>Contact</h2>
 				<p>If you'd like to contact me, send me an email at <em>aramir10@u.rochester.edu</em>, or you can find me on <a href="https://www.linkedin.com/in/aleram" target=_blank>LinkedIn</a>.</p>
 			</section>
 		</div>
-			
+
 		<footer>
 			CSC 174: Advanced Front-end Web Design and Development - <a href="http://csc174.org/lab01/aramir10/" target=_blank>Original Lab 01</a>
 		</footer>

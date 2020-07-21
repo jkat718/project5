@@ -107,6 +107,8 @@ em {
 	margin-bottom: 100px;
 	border: 2px solid #004E98;
 	padding: 50px;
+  padding-top: 0px;
+  padding-bottom: 40px;
 	width: 90%;
 	border-radius: 10px;
 }
@@ -131,6 +133,16 @@ em {
 
 .background figure {
 	float: right;
+  margin-top:20px;
+}
+
+.background header{
+  width: 100%;
+  margin-left: -50px;
+  border-radius: 5px 5px 0 0;
+  margin-bottom: 40px;
+  padding-right: 0;
+  background-position-y: 10px;
 }
 
 .container img {
