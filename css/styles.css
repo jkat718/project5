@@ -133,7 +133,7 @@ em {
 
 .background figure {
 	float: right;
-	margin-top:20px;
+	margin: 20px 0px 0px 0px;
 }
 
 .background header{
@@ -143,6 +143,10 @@ em {
 	margin-bottom: 40px;
 	padding-right: 0;
 	background-position-y: 10px;
+}
+
+.background p {
+	padding-right: 220px;
 }
 
 .container img {
@@ -314,8 +318,4 @@ footer a, .homepage a, .contact-info a {
 .personal_page_link {
 	margin-top: 5px;
 	font-size: 1.17em;
-}
-
-.intro-statement {
-	padding-right: 280px;
 }
