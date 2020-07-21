@@ -5,11 +5,11 @@
 ***************** */
 
 a{
-  color: #212121;
+	color: #212121;
 }
 
 a:hover {
-  color: #F25F5C;
+	color: #F25F5C;
 }
 
 body {
@@ -22,28 +22,28 @@ body {
 }
 
 header {
-  background-color: #004E98;
-  color: #EBEBEB;
-  font-size: 30px;
-  margin-top: 0;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 40px;
-  background-image: url("../images/icon.png");
-  background-repeat: no-repeat;
-  background-size: auto;
-  background-position-x: 15px;
+	background-color: #004E98;
+	color: #EBEBEB;
+	font-size: 30px;
+	margin-top: 0;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	padding-left: 100px;
+	padding-right: 40px;
+	background-image: url("../images/icon.png");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position-x: 15px;
 }
 
 header a {
-  color: #EBEBEB;
-  float:right;
-  text-decoration:none;
+	color: #EBEBEB;
+	float:right;
+	text-decoration:none;
 }
 
 header a:hover {
-  text-decoration:underline;
+	text-decoration:underline;
 }
 
 footer {
@@ -107,8 +107,8 @@ em {
 	margin-bottom: 100px;
 	border: 2px solid #004E98;
 	padding: 50px;
-  padding-top: 0px;
-  padding-bottom: 40px;
+	padding-top: 0px;
+	padding-bottom: 40px;
 	width: 90%;
 	border-radius: 10px;
 }
@@ -133,16 +133,16 @@ em {
 
 .background figure {
 	float: right;
-  margin-top:20px;
+	margin-top:20px;
 }
 
 .background header{
-  width: 100%;
-  margin-left: -50px;
-  border-radius: 5px 5px 0 0;
-  margin-bottom: 40px;
-  padding-right: 0;
-  background-position-y: 10px;
+	width: 100%;
+	margin-left: -50px;
+	border-radius: 5px 5px 0 0;
+	margin-bottom: 40px;
+	padding-right: 0;
+	background-position-y: 10px;
 }
 
 .container img {
@@ -165,39 +165,39 @@ em {
 /* F LAYOUT */
 
 .grid-container {
-  display: grid;
-  grid-template-columns:auto auto auto;
-  grid-column-gap: 60px;
+	display: grid;
+	grid-template-columns:auto auto auto;
+	grid-column-gap: 60px;
 }
 
 .row1, .row2, .row3 {
-  padding-top: 50px;
-  padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .row1 {
-  grid-row: 1;
-  padding-top: 20px;
+	grid-row: 1;
+	padding-top: 20px;
 }
 
 .row1 h3 {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 .row2 {
-  grid-row: 2;
+	grid-row: 2;
 }
 
 .row3 {
-  grid-row: 3;
+	grid-row: 3;
 }
 
 .row3 h3 {
-  margin-top: 5px;
+	margin-top: 5px;
 }
 
 .column2 {
-  grid-column: 2;
+	grid-column: 2;
 }
 
 .list h1 {
@@ -264,10 +264,10 @@ em {
 ***************** */
 
 fieldset{
-  border: 10px solid #ffbe4a;
-  padding: 20px;
-  padding-bottom: 30px;
-  margin-top: -10px;
+	border: 10px solid #ffbe4a;
+	padding: 20px;
+	padding-bottom: 30px;
+	margin-top: -10px;
 }
 
 input {
@@ -314,4 +314,8 @@ footer a, .homepage a, .contact-info a {
 .personal_page_link {
 	margin-top: 5px;
 	font-size: 1.17em;
+}
+
+.intro-statement {
+	padding-right: 280px;
 }
