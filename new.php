@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
 		$result = mysqli_query($connection, "INSERT INTO student_index (firstname, lastname, img, blurb, link) VALUES ('$firstname', '$lastname', '$img' , '$blurb' , '$link' )");
 
 		// once saved, redirect back to the view page
-		header("Location: student_table.php");
+		header("Location: list.php");
 	}
 } else {
 	// if the form hasn't been submitted, display the form

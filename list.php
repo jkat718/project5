@@ -1,51 +1,56 @@
-<?php include "inc/html-top.php"; ?>
-	<body>
-		<header>
-			CSC 174 (FALL 2020)
-			<a href="index.php">&lt;Home</a>
-		</header>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>student index</title>
 
-		<div class="viewport list">
-			<h1>Student Index</h1>
-			<h2>Team New York</h2>
-			<div class="grid-container">
-				<section class="row1">
-					<div class="grid-container">
-						<img src="images/back1.jpg" alt="Jaafar Hadab">
-						<div class="column2">
-							<h3>Jaafar Hadab</h3>
-							<p>I am a Mechanical Engineering Student at the University of Rochester. I am experienced in CAD modeling, Finite Element Analysis (FEA), and Manufacturing. I am also minoring in Computer Science and Psychology, from which I received experience in fundemental coding in Java and Python.</p>
-						</div>
-						<a class="personal_page_link" href="jh.php">Personal Page ></a>
-					</div>
-				</section>
+</head>
+<body>
+    <?php
+    // connect to the database
+    include('connect-db.php');
 
-				<section class="row2">
-					<div class="grid-container">
-						<img src="images/face.png" alt="Jack Mandell">
-						<div class="column2">
-							<h3>Jack Mandall</h3>
-							<p>I am a Math and Computer Science double major studying at the University of Rochester. I am a rising sophomore, and outside of my majors, I enjoy passing the time with some of my favorite hobbies. These hobbies include art, cello, and fishing.</p>
-						</div>
-						<a class="personal_page_link" href="jm.php">Personal Page ></a>
-					</div>
-				</section>
+    // get results from database
+    $result = mysqli_query($connection, "SELECT * FROM student_index");
+    ?>
+    
+    <table border >
+       <thead >
+       <tr>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Image</th>
+          <th>Blurb</th>
+          <th>Link</th>
+          <th colspan="2"><em>functions</em></th>
+      </tr>
+        </thead>
+    <?php
+    // loop through results of database query, displaying them in the table
+    while($row = mysqli_fetch_array( $result )) {
+    ?>
+      <tr>
+        <td> <?php echo $row['firstname']; ?> </td>
+        <td> <?php echo $row['lastname']; ?> </td>
+        <td> <img src="<?php echo $row['img'];?>" alt="photo" width="300"> </td>
+        <td> <?php echo $row['blurb'];?> </td>
+        <td> <a href="<?php echo $row['link']; ?>" target="_blank"> <?php echo $row['link']; ?> </a> </td>
+        <td> <a href="edit.php?id=<?php echo $row['id']; ?>"> Edit </a> </td>
+        <td> <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>"> Delete </a> </td>
+      </tr>
+    <?php
+    // close the loop
+    }
+    ?>
+    </table>
 
-				<section class="row3">
-					<div class="grid-container">
-						<img src="images/met_resized.jpg" alt="Alejandro Ramirez">
-						<div class="column2">
-							<h3>Alejandro Ramirez</h3>
-							<p>I'm a rising junior from Long Island, New York. I'm majoring in Computer Science and minoring in Digital Media Studies. Before UR, I spent the first semester of my college career at RPI studying Mechanical Engineering. Aside from computing, I love cooking, volunteering, hiking/the outdoors, and music!</p>
-						</div>
-						<a class="personal_page_link" href="ar.php">Personal Page ></a>
-					</div>
-				</section>
-			</div>
-        </div>
-
-        <footer>
-			CSC 174: Advanced Front-end Web Design and Development
-        </footer>
-	</body>
+    <div>
+     <a href="new.php" class="nav-link">Add a new record</a> 
+   </div>
+   
+</body>
 </html>
+<?php
+  mysqli_free_result($result);
+  mysqli_close($connection);
+?>

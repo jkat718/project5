@@ -21,10 +21,10 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
 	
 
 	// redirect back to the homepage to see the results
-	header("Location: student_table.php");
+	header("Location: list.php");
 
 } else {
 	// if id isn't set, or isn't valid, redirect back to homepage
-	header("Location: student_table.php");
+	header("Location: list.php");
 }
 ?>
