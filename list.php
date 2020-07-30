@@ -1,7 +1,7 @@
 <?php include "inc/html-top.php"; ?>
 
-  <body>
-      <header>
+  <body class="container-fluid">
+      <header class="full-width">
         <h1><a href = "index.php">CSC 174</a></h1>
       </header>
       <?php
@@ -18,18 +18,21 @@
       while($row = mysqli_fetch_array( $result )) {
       ?>
         <li>
-          <div>
-            <h3> <?php echo $row['firstname']; ?>
+          <div class="grid-container">
+            <h3 class="full-width"> <?php echo $row['firstname']; ?>
               <?php echo $row['lastname']; ?> 
             </h3>
             <figure> <img src="<?php echo $row['img'];?>" alt="photo" width="300"> </figure>
             <p> <?php echo $row['blurb'];?> </p>
-            <a href="<?php echo $row['link']; ?>" target="_blank">Example of previous work</a>
+            <div>
+              <a href="<?php echo $row['link']; ?>" target="_blank" class="btn btn-primary">Example of previous work</a>
+
             <div class = "dropdown">
               <button class = "dropbtn" onclick ="myFunction(<?php echo$row['id']; ?>)"><span>&#8942;</span></button>
               <div class = "dropdown-content" id = "<?php echo$row['id']; ?>">
                 <a href="edit.php?id=<?php echo $row['id']; ?>"> Edit </a>
                 <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>"> Delete </a>
+            </div>
             </div>
             </div>
           </div>

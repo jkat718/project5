@@ -1,0 +1,36 @@
+
+/*Updated styles for personalization
+(These involve bootstrap styles)*/
+
+.container-fluid header{
+	padding-bottom: 90px;
+}
+
+.btn-primary {
+	background-color: #004E98
+}
+
+.dropdown {
+	position: absolute;
+}
+
+
+/*Added styles for personalization
+(Visual designer new styles)*/
+
+.full-width {
+	grid-column: 1/4;
+}
+
+li img:nth-child(n+1) {
+	border: 20px solid #ffbb66;
+}
+li img:nth-child(n+2) {
+	border: 20px solid #70C1B3;
+}
+li img:nth-child(n+3) {
+	border: 20px solid #004E98;
+}
+
+
+
