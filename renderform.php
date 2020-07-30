@@ -3,12 +3,7 @@
 function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 ?>
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Project 4</title>
-
-	</head>
+<?php include "inc/html-top.php"; ?>
 	<body>
 		<header>
 			<h1><a href = "index.php">CSC 174</a></h1>
