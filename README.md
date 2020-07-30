@@ -1,15 +1,26 @@
-# Project 3
-Team New York
-- Huiyu Yang
-- Jason Katzner
-- Leah Goodwin
+# Project 4
+## Team New York
+- Jaafar Al Hadab (Information Architect)
+- Joseph Madejski (Visual Designer)
+- Jack Mandell (Technician)
 
-## Designs used:
-- We used Leah's design for both the F layout and Z layout
 
-## Changes to Original Project 2 Design
-- increased padding and margins; decreased proximity between header and interests to create seperation; changed layout of interests, de-grouped contact info from interests
-- replaced neon color scheme to be easier on the eye; new scheme referencing colors for engineer/computer science theme with blue and light grey on the student pages
-- fixed interest pictures to bottom of their box and gave them a backboard to make them more uniform
-- added bottom border to h3 to create seperation between h3 and body text, as they are close in size
-- added background to footer to balance between filled shapes and lines
+## Information Architect Notes:
+
+## Visual Designer Notes:
+
+## Technician Notes:
+- Image submissions are uploaded to the bluehost directory, and are referened with links in the student pages
+
+## TODO:
+- [] included a new data entry form page in the website
+- [] link to data entry form is explained
+- [] Choreography, ontology, and taxonomy
+- [] implemented a css framework
+- [] customized css framework with an override css file
+- [] design of form page follows CRAP and visual design principles
+- [] f-pattern page still looks like it did previously in project 3
+- [] html form successfully implemented and integrated with database
+- [] f-pattern webpage successfully displays data from course server
+- [] html and css code vildated for all pages
+- [] uploaded only website files to bluehost
