@@ -20,32 +20,31 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 		<form action="" method="post" enctype="multipart/form-data">
 			<input type="hidden" name="id" value="<?php echo $id; ?>">
 			<div>
-				<strong>First Name: *</strong> <input type="text" name="firstname" value="<?php echo $firstname; ?>"/>
+				<label for="firstname">Type your first name:</label> <input type="text" name="firstname" value="<?php echo $firstname; ?>">
 			</div>
 
 			<div>
-				<strong>Last Name: *</strong> <input type="text" name="lastname" value="<?php echo $lastname; ?>"/>
+				<label for= "lastname">Type your last name:</label> <input type="text" name="lastname" value="<?php echo $lastname; ?>">
 			</div>
 
 			<div>
-				<strong>Image: *</strong> <input  type="file" name="img" value="<?php echo $img; ?>"/>
+				<label for ="img">Upload your headshot:</label> <input  type="file" name="img" value="<?php echo $img; ?>">
 			</div>
 
 			<div>
-				<strong>Blurb: *</strong> <input  type="text" name="blurb" value="<?php echo $blurb; ?>"/>
+				<label for = "blurb">Tell the World Wide Web about yourself in 100-200 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
 			</div>
 
 			<div>
-				<strong>Link: *</strong> <input  type="text" name="link" value="<?php echo $link; ?>"/>
+				<label for = "link">Provide a link to a website you've worked on:</label> <input  type="text" name="link" value="<?php echo $link; ?>">
 			</div>
-
-			<div>* required</div>
+			<div><em>all fields are required</em></div>
 			<input  type="submit" name="submit" value="Submit">
 		</form>
 	 
 
 	    <div>
-      	   <a href=".">Cancel</a> 
+      	   <a href="list.php">Cancel</a> 
         </div>
         
 	</body>
