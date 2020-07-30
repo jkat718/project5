@@ -2,9 +2,10 @@
 /*Updated styles for personalization
 (These involve bootstrap styles)*/
 
-.container-fluid header{
-	padding-bottom: 90px;
+.container-fluid {
+	margin-bottom: 30px;
 }
+
 
 .btn-primary {
 	background-color: #004E98
@@ -32,5 +33,9 @@ li img:nth-child(n+3) {
 	border: 20px solid #004E98;
 }
 
+
+.nav-link {
+	float: right;
+}
 
 

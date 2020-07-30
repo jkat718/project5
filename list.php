@@ -44,7 +44,7 @@
       </ul>
 
       <div>
-       <a href="new.php" class="nav-link">Add your info to this webpage</a> 
+       <a href="new.php" class="nav-link btn btn-primary">Add your info to this webpage</a> 
      </div>
      <script src="js/dropdown-menu.js"></script>
   </body>
