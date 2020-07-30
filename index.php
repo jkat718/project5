@@ -2,48 +2,29 @@
 
 	<body>
 		<header>
-			CSC 174 (FALL 2020)
+			<h1>CSC 174</h1>
 		</header>
 		
 		<div class="viewport2">
 			<div class="grid2">
-				<div class="slider">
-					<img src="images/cover.jpg" alt="cover">
-					<img src="images/ar.jpg" alt="ar website">
-					<img src="images/jh.jpg" alt="jh website">
-					<img src="images/jm.jpg" alt="jm website">
+				<div>
+					<h2><a href="new.php">A fellow CSC 174 student? Add your info to our showcase database!</a></h2>
 				</div>
-				<form method="post">
-					<fieldset>
-						<legend><h2>Login:</h2></legend>
-						<label for="netid">NetID:</label><br>
-						<input type="text" id="netid" name="netid" value=""><br>
-						<label for="pword">Password:</label><br>
-						<input type="text" id="pword" name="pword" value=""><br>
-						<input type="submit" value="Sign in" class="signInBtn">
-					</fieldset>
-				</form>
 			</div>
 			<div class="align">
 				<article>
 					<h2>About CSC 174</h2>
-					<p>“Front-end” is an industry term that refers to the focus on HTML, CSS and JavaScript, which differentiates this course from the formal programming courses. Topics include Information Architecture, visual design, use of client libraries (mostly JS), and asset management strategies.</p>
+					<p>“Front-end” is an industry term that refers to the focus on HTML, CSS and JavaScript, which differentiates this course from the formal programming courses.</p>
 				</article>
 				<div class="align">
-					<a href="list.php">Head to the Student Index ></a>
+					<a href="list.php">See a showcase of students ></a>
 				</div>
 			</div>
 		</div>
 		
-		<footer>
-			CSC 174: Advanced Front-End Web Design and Development
+		<footer><a href = "https://docs.csc174.org/syllabus.html">
+			CSC 174: Advanced Front-End Web Design and Development </a>
 		</footer>
 <?php include "inc/scripts.php"; ?>
-		<script src="sss/sss.js"></script>
-		<script>
-			$('.slider').sss({
-			  speed:5000
-			});
-		</script>
 	</body>
 </html>
