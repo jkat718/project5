@@ -6,7 +6,26 @@
 
 
 ## Information Architect Notes:
-
+### Ontology:
+- Website
+	- Index Z-layout welcome page
+		- link to f-layout page in the strong follow
+		- link to the form page in the weak follow
+	- List f-layout showcase (do the other stuff) page
+		- student listings
+			- student name
+			- blurb
+			- image
+			- link to previous project
+		- link to form page
+		- single link back to homepage (why?)
+	- Input form page
+		- input for name
+		- input for blurb
+		- input for image
+		- input for previous project
+		- submit and cancel buttons
+    
 ## Visual Designer Notes:
 
 ## Technician Notes:
