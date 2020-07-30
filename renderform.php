@@ -3,13 +3,11 @@
 function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 ?>
 <!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<title>Student Index</title>
-
-	</head>
+<?php include "inc/html-top.php"; ?>
 	<body>
+		<header>
+			<h1><a href = "index.php">CSC 174</a></h1>
+		</header>
 		<?php
 		// if there are any errors, display them
 		if ($error != '') {
