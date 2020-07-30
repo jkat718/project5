@@ -6,10 +6,13 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Student Index</title>
+		<title>Project 4</title>
 
 	</head>
 	<body>
+		<header>
+			<h1><a href = "index.php">CSC 174</a></h1>
+		</header>
 		<?php
 		// if there are any errors, display them
 		if ($error != '') {
