@@ -14,7 +14,7 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 			echo '<div style="padding:4px; border:1px solid red; color:red;">'.$error.'</div>';
 		}
 		?>
-
+		<div class="required"><em>All fields are required</em></div>
 		<div class="container">
 		<form action="" method="post" enctype="multipart/form-data" class="form-inline">
 			<input type="hidden" name="id" value="<?php echo $id; ?>">
@@ -30,14 +30,14 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 				<label for ="img" class="custom-file-label" >Upload your headshot:</label> <input  type="file" name="img" value="<?php echo $img; ?>" class="custom-file-input" >
 			</div>
 
-			<div class="form-group">
+			<div>
 				<label for = "blurb">Tell the World Wide Web about yourself in 100-200 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
 			</div>
 
 			<div class="form-group">
 				<label for = "link">Provide a link to a website you've worked on:</label> <input  type="text" name="link" value="<?php echo $link; ?>">
 			</div>
-			<div><em>all fields are required</em></div>
+			<div class="required"><em>All fields are required</em></div>
 			<input  type="submit" name="submit" value="Submit" class="btn btn-primary btn-block">
 			<div>
       	  		<a href="list.php" class="btn btn-danger btn-block">Cancel</a> 

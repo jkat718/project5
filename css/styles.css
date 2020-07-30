@@ -174,7 +174,7 @@ li {
 
 .grid-container {
 	display: grid;
-	grid-template-columns:auto auto auto;
+	grid-template-columns:1fr 2fr .5fr;
 	grid-column-gap: 60px;
 }
 
@@ -228,7 +228,7 @@ li {
 
 .grid2 {
   display: grid;
-  grid-template-columns: 3.5fr 1fr;
+  grid-template-columns: 3fr 1fr;
   grid-gap: 30px;
   margin-top:10px;
   margin-bottom: 40px;

@@ -1,12 +1,19 @@
 <?php include "inc/html-top.php"; ?>
 
 	<body>
-		<header>
+		<header id="index-header">
 			<h1>CSC 174</h1>
 		</header>
 		
 		<div class="viewport2">
 			<div class="grid2">
+				<div>
+
+
+					<!--Need some content here!-->
+
+
+				</div>
 				<div>
 					<h2><a href="new.php">A fellow CSC 174 student? Add your info to our showcase database!</a></h2>
 				</div>
