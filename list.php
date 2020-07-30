@@ -1,6 +1,9 @@
 <?php include "inc/html-top.php"; ?>
 
   <body>
+      <header>
+        <h1><a href = "index.php">CSC 174</a></h1>
+      </header>
       <?php
       // connect to the database
       include('connect-db.php');
@@ -9,40 +12,38 @@
       $result = mysqli_query($connection, "SELECT * FROM student_index");
       ?>
       
-      <table border >
-         <thead >
-         <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Image</th>
-            <th>Blurb</th>
-            <th>Link</th>
-            <th colspan="2"><em>functions</em></th>
-        </tr>
-          </thead>
+      <ul>
       <?php
       // loop through results of database query, displaying them in the table
       while($row = mysqli_fetch_array( $result )) {
       ?>
-        <tr>
-          <td> <?php echo $row['firstname']; ?> </td>
-          <td> <?php echo $row['lastname']; ?> </td>
-          <td> <img src="<?php echo $row['img'];?>" alt="photo" width="300"> </td>
-          <td> <?php echo $row['blurb'];?> </td>
-          <td> <a href="<?php echo $row['link']; ?>" target="_blank"> <?php echo $row['link']; ?> </a> </td>
-          <td> <a href="edit.php?id=<?php echo $row['id']; ?>"> Edit </a> </td>
-          <td> <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>"> Delete </a> </td>
-        </tr>
+        <li>
+          <div>
+            <h3> <?php echo $row['firstname']; ?>
+              <?php echo $row['lastname']; ?> 
+            </h3>
+            <figure> <img src="<?php echo $row['img'];?>" alt="photo" width="300"> </figure>
+            <p> <?php echo $row['blurb'];?> </p>
+            <a href="<?php echo $row['link']; ?>" target="_blank">Example of previous work</a>
+            <div class = "dropdown">
+              <button class = "dropbtn" onclick ="myFunction(<?php echo$row['id']; ?>)"><span>&#8942;</span></button>
+              <div class = "dropdown-content" id = "<?php echo$row['id']; ?>">
+                <a href="edit.php?id=<?php echo $row['id']; ?>"> Edit </a>
+                <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>"> Delete </a>
+            </div>
+            </div>
+          </div>
+        </li>
       <?php
       // close the loop
       }
       ?>
-      </table>
+      </ul>
 
       <div>
        <a href="new.php" class="nav-link">Add a new record</a> 
      </div>
-     
+     <script src="js/dropdown-menu.js"></script>
   </body>
 </html>
 <?php

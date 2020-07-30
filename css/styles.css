@@ -319,3 +319,15 @@ footer a, .homepage a, .contact-info a {
 	margin-top: 5px;
 	font-size: 1.17em;
 }
+
+.dropdown-content{
+	display:none;
+  	background-color: #f9f9f9;
+  	min-width: 160px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  	z-index: 1;
+}
+
+.show{
+	display:block;
+}	
