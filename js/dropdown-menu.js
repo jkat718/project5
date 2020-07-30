@@ -4,9 +4,11 @@ function myFunction(ident) {
 }
 window.onclick = function(e) {
   if (!e.target.matches('.dropbtn')) {
-    var myDropdown = document.getElementById("myDropdown");
-    if (myDropdown.classList.contains('show')) {
-      myDropdown.classList.remove('show');
+    var elements = document.getElementsByClassName("dropbtn");
+    for (var i = 0, len = elements.length; i<len; i++){
+      if (elements[i].classList.contains('show')) {
+        elemments[i].classList.remove('show');
+      }
     }
   }
 }

@@ -41,7 +41,7 @@
       </ul>
 
       <div>
-       <a href="new.php" class="nav-link">Add a new record</a> 
+       <a href="new.php" class="nav-link">Add your info to this webpage</a> 
      </div>
      <script src="js/dropdown-menu.js"></script>
   </body>
