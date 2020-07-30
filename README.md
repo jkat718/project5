@@ -6,7 +6,7 @@
 
 
 ## Information Architect Notes:
-### Ontology:
+### Website Structure (Ontology):
 - Website
 	- Index Z-layout welcome page
 		- link to f-layout page in the strong follow
@@ -25,16 +25,19 @@
 		- input for image
 		- input for previous project
 		- submit and cancel buttons
-    
+### Choreography:
+The goal of the website is to get the user to input their information into the database. There are two ways that the website can achieve this:
+- By directing the user to the form page directly from the index page. This is meant for fellow csc 174 students that are familiar with the project, and wish to get to the form quickly
+- By going through and scrolling all the way down in the f-layout list page. This is meant for individuals that aren't familiar with the project, and may need to see examples of what a typical student card showcase card looks like before creating one for themselves.
 ## Visual Designer Notes:
 
 ## Technician Notes:
 - Image submissions are uploaded to the bluehost directory, and are referened with links in the student pages
 
 ## TODO:
-- [] included a new data entry form page in the website
-- [] link to data entry form is explained
-- [] Choreography, ontology, and taxonomy
+- [X] included a new data entry form page in the website
+- [X] link to data entry form is explained
+- [X] Choreography, ontology, and taxonomy
 - [] implemented a css framework
 - [] customized css framework with an override css file
 - [] design of form page follows CRAP and visual design principles
