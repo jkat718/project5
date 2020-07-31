@@ -38,11 +38,11 @@ The goal of the website is to get the user to input their information into the d
 - [X] included a new data entry form page in the website
 - [X] link to data entry form is explained
 - [X] Choreography, ontology, and taxonomy
-- [] implemented a css framework
-- [] customized css framework with an override css file
+- [X] implemented a css framework
+- [X] customized css framework with an override css file
 - [] design of form page follows CRAP and visual design principles
-- [] f-pattern page still looks like it did previously in project 3
+- [X] f-pattern page still looks like it did previously in project 3
 - [] html form successfully implemented and integrated with database
-- [] f-pattern webpage successfully displays data from course server
+- [X] f-pattern webpage successfully displays data from course server
 - [] html and css code vildated for all pages
 - [] uploaded only website files to bluehost
