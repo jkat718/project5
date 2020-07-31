@@ -12,6 +12,8 @@
       $result = mysqli_query($connection, "SELECT * FROM student_index");
       ?>
       
+      <h2 id="student-list">Student Index</h2>
+
       <ul>
       <?php
       // loop through results of database query, displaying them in the table
@@ -44,7 +46,8 @@
       </ul>
 
       <div>
-       <a href="new.php" class="nav-link btn btn-primary">Add your info to this webpage</a> 
+        <a href="index.php" class="btn btn-info">Return Home</a>
+        <a href="new.php" class="nav-link btn btn-primary">Add your info to this webpage</a> 
      </div>
      <script src="js/dropdown-menu.js"></script>
   </body>

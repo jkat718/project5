@@ -1,6 +1,6 @@
 <?php include "inc/html-top.php"; ?>
 
-	<body>
+	<body class="container-fluid">
 		<header id="index-header">
 			<h1>CSC 174</h1>
 		</header>
@@ -15,7 +15,7 @@
 
 				</div>
 				<div>
-					<h2><a href="new.php">A fellow CSC 174 student? Add your info to our showcase database!</a></h2>
+					<h2>A fellow CSC 174 student? Add your info to our showcase!</h2><a href="new.php" class="btn btn-primary nav-link"> Add info </a>
 				</div>
 			</div>
 			<div class="align">
