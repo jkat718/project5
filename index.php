@@ -19,7 +19,7 @@
 				</div>
 				<div>
 					<h2>A fellow CSC 174 student? Login to your account!</h2 >
-					<form action = "new.php" class="form-inline">
+					<form action = "new.php" class="form-inline" method="post">
 						<label for="username">Type username:</label> <input id="username" type="text" name="username">
 						<label for="password">Type password:</label> <input id="password" type="text" name="password">
 						<input type="submit" value="Log in/Add info" class="btn btn-primary" >
