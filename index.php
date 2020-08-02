@@ -10,13 +10,23 @@
 				<div>
 
 
-					<!--Need some content here!-->
+					<fig>
+						<img class = "home-pic" src ="images/web-dev.png">
+					</fig>
+
+						<!--Need some content here!-->
 
 
 				</div>
 				<div>
-					<h2>A fellow CSC 174 student? Add your info to our showcase!</h2><a href="new.php" class="btn btn-primary nav-link"> Add info </a>
+					<h2>A fellow CSC 174 student? Login to your account!</h2>
+					<form action = "" class="form-inline">
+						<label for="username">Type username:</label> <input type="text" name="username">
+						<label for="password">Type password:</label> <input type="text" name="password">
+					</form>
+					<a href="new.php" class="btn btn-primary nav-link"> Log in </a>
 				</div>
+	
 			</div>
 			<div class="align">
 				<article>
