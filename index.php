@@ -14,7 +14,6 @@
 						<img class = "home-pic" src ="images/web-dev.png">
 					</fig>
 
-						<!--Need some content here!-->
 
 
 				</div>
@@ -24,7 +23,7 @@
 						<label for="username">Type username:</label> <input type="text" name="username">
 						<label for="password">Type password:</label> <input type="text" name="password">
 					</form>
-					<a href="new.php" class="btn btn-primary nav-link"> Log in </a>
+					<a href="new.php" class="btn btn-primary nav-link" id="login"> Log in/Add info </a>
 				</div>
 	
 			</div>
