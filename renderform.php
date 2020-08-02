@@ -16,18 +16,18 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 		?>
 		<div class="required"><em>All fields are required</em></div>
 		<div class="container">
-		<form action="" method="post" enctype="multipart/form-data" class="form-inline">
+		<form action="#" method="post" enctype="multipart/form-data" class="form-inline">
 			<input type="hidden" name="id" value="<?php echo $id; ?>">
 			<div class="form-group">
-				<label for="firstname">Type your first name:</label> <input type="text" name="firstname" value="<?php echo $firstname; ?>">
+				<label for="firstname">Type your first name:</label> <input type="text" name="firstname" id="firstname" value="<?php echo $firstname; ?>">
 			</div>
 
 			<div class="form-group">
-				<label for= "lastname">Type your last name:</label> <input type="text" name="lastname" value="<?php echo $lastname; ?>">
+				<label for= "lastname">Type your last name:</label> <input type="text" name="lastname" id="lastname" value="<?php echo $lastname; ?>">
 			</div>
 
 			<div class="custom-file form-group">
-				<label for ="img" class="custom-file-label" >Upload your headshot:</label> <input  type="file" name="img" value="<?php echo $img; ?>" class="custom-file-input" >
+				<label for ="img" class="custom-file-label" >Upload your headshot:</label> <input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
 			</div>
 
 			<div>
@@ -35,7 +35,7 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 			</div>
 
 			<div class="form-group">
-				<label for = "link">Provide a link to a website you've worked on:</label> <input  type="text" name="link" value="<?php echo $link; ?>">
+				<label for = "link">Provide a link to a website you've worked on:</label> <input  type="text" name="link" id="link">
 			</div>
 			<div class="required"><em>All fields are required</em></div>
 			<input  type="submit" name="submit" value="Submit" class="btn btn-primary btn-block">
