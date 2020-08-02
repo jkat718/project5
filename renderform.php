@@ -31,7 +31,7 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 			</div>
 
 			<div>
-				<label for = "blurb">Tell the World Wide Web about yourself in 100-200 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
+				<label for = "blurb">Tell the World Wide Web about yourself in ~50 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
 			</div>
 
 			<div class="form-group">
