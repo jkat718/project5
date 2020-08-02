@@ -22,7 +22,9 @@
 	background-color: #70C1B3;
 	margin-left: 40px;
 }
-
+#password {
+	margin-bottom: 10px; 
+}
 /*Added styles for personalization
 (Visual designer new styles)*/
 

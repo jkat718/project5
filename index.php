@@ -10,20 +10,20 @@
 				<div>
 
 
-					<fig>
-						<img class = "home-pic" src ="images/web-dev.png">
-					</fig>
+					<figure>
+						<img class = "home-pic" src ="images/web-dev.png" alt="home">
+					</figure>
 
 
 
 				</div>
 				<div>
-					<h2>A fellow CSC 174 student? Login to your account!</h2>
-					<form action = "" class="form-inline">
-						<label for="username">Type username:</label> <input type="text" name="username">
-						<label for="password">Type password:</label> <input type="text" name="password">
+					<h2>A fellow CSC 174 student? Login to your account!</h2 >
+					<form action = "new.php" class="form-inline">
+						<label for="username">Type username:</label> <input id="username" type="text" name="username">
+						<label for="password">Type password:</label> <input id="password" type="text" name="password">
+						<input type="submit" value="Log in/Add info" class="btn btn-primary" >
 					</form>
-					<a href="new.php" class="btn btn-primary nav-link" id="login"> Log in/Add info </a>
 				</div>
 	
 			</div>
