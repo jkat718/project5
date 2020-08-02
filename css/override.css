@@ -6,11 +6,16 @@
 	margin-bottom: 30px;
 	padding-right: 0;
 	padding-left: 0;
-}
+	margin-right: auto; 
+    margin-left:  auto; 
+  	max-width: 1040px; 
+  	width: 100%;
+  	}
 
 
 .btn-primary {
-	background-color: #004E98
+	background-color: #004E98;
+
 }
 
 .btn-info {
@@ -51,6 +56,10 @@ h2 {
 
 #student-list {
 	border-bottom: 3px solid black;
+}
+
+h1 a {
+	float: left;
 }
 
 
