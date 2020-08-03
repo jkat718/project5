@@ -14,11 +14,11 @@
 	- List f-layout showcase (do the other stuff) page
 		- student listings
 			- student name
-			- blurb
+			- blurb (~50 words)
 			- image
 			- link to previous project
 		- link to form page
-		- single link back to homepage (why?)
+		- single link back to homepage (in case the user wants to go back)
 	- Input form page
 		- input for name
 		- input for blurb
@@ -26,9 +26,14 @@
 		- input for previous project
 		- submit and cancel buttons
 ### Choreography:
-The goal of the website is to get the user to input their information into the database. There are two ways that the website can achieve this:
+The goal of the webste is to get the user to input their information into the database. There are two ways that the website can achieve this:
 - By directing the user to the form page directly from the index page. This is meant for fellow csc 174 students that are familiar with the project, and wish to get to the form quickly
 - By going through and scrolling all the way down in the f-layout list page. This is meant for individuals that aren't familiar with the project, and may need to see examples of what a typical student card showcase card looks like before creating one for themselves.
+
+### Final IA Notes:
+- Since we're not implementing a login system this time, the login button on the homepage merely directs to new.php
+- The user is expected to go through the website in a linear manner (see choreography), therefore, a nav bar is not implemented. Though we did implement two links to the homepage in the list page in case the user wanted to go back to the homepage.
+- To add an extra step to delete and edit functions, used a dropdown menu to get to to those links
 
 ## Visual Designer Notes:
 -Index page: Each row of the Z-pattern approximately follows the golden ratio for visual appeal, with some slight tweaking to better fit content. 
