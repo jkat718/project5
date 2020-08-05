@@ -36,8 +36,8 @@
               <!-- if logged in -->
             <div class = "dropdown">
               <div id = "<?php echo$row['id']; ?>">
-                <a href="edit.php?id=<?php echo $row['id']; ?>"> Edit </a>
-                <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>"> Delete </a>
+                <a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a>
+                <a onclick="return confirm('Are you sure you want to delete: <?php echo $row["firstname"] . " " . $row["lastname"]; ?>?')" href="delete.php?id=<?php echo $row['id']; ?>">Delete</a>
             </div>
 
 
