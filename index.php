@@ -3,27 +3,19 @@
 	<body class="container-fluid">
 		<header id="index-header">
 			<h1>CSC 174</h1>
+			<a href="login.php">Login</a>
 		</header>
 		
 		<div class="viewport2">
 			<div class="grid2">
 				<div>
 
-
 					<figure>
 						<img class = "home-pic" src ="images/web-dev.png" alt="home">
 					</figure>
+					<p>Welcome to CSC174</p>
+					<div>Advanced Front-End Web Design and Development</div>
 
-
-
-				</div>
-				<div>
-					<h2>A fellow CSC 174 student? Login to your account!</h2 >
-					<form action = "new.php" class="form-inline" method="post">
-						<label for="username">Type username:</label> <input id="username" type="text" name="username">
-						<label for="password">Type password:</label> <input id="password" type="text" name="password">
-						<input type="submit" value="Log in/Add info" class="btn btn-primary" >
-					</form>
 				</div>
 	
 			</div>
