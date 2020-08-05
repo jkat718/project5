@@ -28,7 +28,7 @@
             <h3 class="full-width"> <?php echo $row['firstname']; ?>
               <?php echo $row['lastname']; ?> 
             </h3>
-            <figure> <img src="<?php echo $row['img'];?>" alt="photo" width="300"> </figure>
+            <figure> <img src="<?php echo $row['img'];?>" alt="<?php echo $row["firstname"], " ", $row["lastname"];?>"> </figure>
             <p> <?php echo $row['blurb'];?> </p>
             <div>
               <a href="<?php echo $row['link']; ?>" target="_blank" class="btn btn-primary">Read More</a>

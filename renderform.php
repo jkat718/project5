@@ -14,7 +14,6 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 			echo '<div style="padding:4px; border:1px solid red; color:red;">'.$error.'</div>';
 		}
 		?>
-		<div class="required"><em>All fields are required</em></div>
 		<div class="container">
 		<form action="#" method="post" enctype="multipart/form-data" class="form-inline">
 			<input type="hidden" name="id" value="<?php echo $id; ?>">
@@ -27,15 +26,15 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 			</div>
 
 			<div class="custom-file form-group">
-				<label for ="img" class="custom-file-label" >Upload your headshot:</label> <input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
+				<label for ="img" class="custom-file-label">Upload your headshot:</label> <input  type="file" name="img" id="img" value="<?php echo $img; ?>" class="custom-file-input" >
 			</div>
 
 			<div>
-				<label for = "blurb">Tell the World Wide Web about yourself in ~50 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
+				<label for = "blurb">Tell the us about yourself in ~50 words:</label> <textarea id ="blurb" name="blurb" rows = "4" cols = "50"><?php echo $blurb; ?></textarea>
 			</div>
 
 			<div class="form-group">
-				<label for = "link">Provide a link to a website you've worked on:</label> <input  type="text" name="link" id="link">
+				<label for = "link">Provide a link to your Lab05:</label> <input  type="text" name="link" id="link">
 			</div>
 			<div class="required"><em>All fields are required</em></div>
 			<input  type="submit" name="submit" value="Submit" class="btn btn-primary btn-block">
