@@ -5,20 +5,33 @@
 			<h1>CSC 174</h1>
 			<a href="login.php">Login</a>
 		</header>
-		
-		<div class="viewport2">
-			<div class="grid2">
-				<div>
 
+			<!-- <div class="row">
+				<div class="col">
 					<figure>
 						<img class = "home-pic" src ="images/web-dev.png" alt="home">
 					</figure>
+				</div>
+				<div class="col">
 					<p>Welcome to CSC174</p>
 					<div>Advanced Front-End Web Design and Development</div>
+			</div> -->
 
+
+			<div class="d-flex">
+				<div class="p-2 hello">
+					<figure>
+						<img class = "home-pic" src ="images/web-dev.png" alt="home">
+					</figure>
 				</div>
-	
+				<div class="p-2 hello h1 ml-5">
+					<p>Welcome to CSC174</p>
+					<p class="h2">Advanced Front-End </p>
+					<p class="h2">Web Design and Development</p>
+				</div>
 			</div>
+
+
 			<div class="align">
 				<article>
 					<h2>About CSC 174</h2>

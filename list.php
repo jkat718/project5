@@ -4,9 +4,9 @@
       <header class="full-width">
         <h1><a href = "index.php">CSC 174</a></h1>
         <!-- if NOT logged in -->
-        <a href="login.php">Login</a>
+        <a class="sign" href="login.php">Login</a>
         <!-- if logged in -->
-        <a href="logout.php">Sign Out</a>
+        <a class="sign" href="logout.php">Sign Out</a>
       </header>
       <?php
       // connect to the database
