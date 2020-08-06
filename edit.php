@@ -1,8 +1,9 @@
 <?php
+include('inc/protect.php');
 include('renderform.php');
 
 // connect to the database
-include('connect-db.php');
+include('inc/connect-db.php');
 
 // check if the form (from renderform.php) has been submitted. If it has, process the form and save it to the database
 if (isset($_POST['submit'])) {

@@ -3,14 +3,14 @@
   <body class="container-fluid">
       <header class="full-width">
         <h1><a href = "index.php">CSC 174</a></h1>
-        <!-- if NOT logged in -->
-        <a class="sign" href="login.php">Login</a>
-        <!-- if logged in -->
-        <a class="sign" href="logout.php">Sign Out</a>
+<!-- if logged in -->
+        <a class="sign" href="logout.php">Log Out</a>
+<!-- if NOT logged in -->
+        <a class="sign" href="login.php">Log In</a>
       </header>
       <?php
       // connect to the database
-      include('connect-db.php');
+      include('inc/connect-db.php');
 
       // get results from database
       $result = mysqli_query($connection, "SELECT * FROM student_index");
@@ -33,7 +33,7 @@
             <div>
               <a href="<?php echo $row['link']; ?>" target="_blank" class="btn btn-primary">Read More</a>
 
-              <!-- if logged in -->
+<!-- if logged in -->
             <div class = "dropdown">
               <div id = "<?php echo$row['id']; ?>">
                 <a href="edit.php?id=<?php echo $row['id']; ?>">Edit</a>

@@ -3,7 +3,10 @@
 	<body class="container-fluid">
 		<header id="index-header">
 			<h1>CSC 174</h1>
-			<a href="login.php">Login</a>
+<!-- if logged in -->
+			<a href="logout.php">Log Out</a>
+<!-- if NOT logged in -->
+			<a href="login.php">Log In</a>
 		</header>
 
 			<!-- <div class="row">

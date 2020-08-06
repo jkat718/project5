@@ -1,6 +1,6 @@
 <?php
 // Include config file
-require_once "config.php";
+require_once "inc/connect-db.php";
  
 // Define variables and initialize with empty values
 $username = $password = $confirm_password = "";
@@ -14,7 +14,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $username_err = "Please enter a username.";
     } else{
         // Prepare a select statement
-        $sql = "SELECT id FROM student_index WHERE username = ?";
+        $sql = "SELECT id FROM users WHERE username = ?";
         
         if($stmt = mysqli_prepare($connection, $sql)){
             // Bind variables to the prepared statement as parameters
@@ -65,7 +65,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     if(empty($username_err) && empty($password_err) && empty($confirm_password_err)){
         
         // Prepare an insert statement
-        $sql = "INSERT INTO student_index (username, password) VALUES (?, ?)";
+        $sql = "INSERT INTO users (username, password) VALUES (?, ?)";
          
         if($stmt = mysqli_prepare($connection, $sql)){
             // Bind variables to the prepared statement as parameters
