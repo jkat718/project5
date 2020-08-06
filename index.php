@@ -24,8 +24,8 @@
 						<img class = "home-pic" src ="images/web-dev.png" alt="home">
 					</figure>
 				</div>
-				<div class="p-2 hello h1 ml-5">
-					<p>Welcome to CSC174</p>
+				<div class="p-2 hello h1 bye">
+					<p  class="border-bottom">Welcome to CSC174</p>
 					<p class="h2">Advanced Front-End </p>
 					<p class="h2">Web Design and Development</p>
 				</div>

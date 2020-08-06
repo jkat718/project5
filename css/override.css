@@ -109,4 +109,15 @@ header {
 
 .hello{
 	display: inline-block;
+	padding-top: 60px;
+	padding-left: 40px;
+	
+}
+
+.bye{
+	padding-left: 90px;
+}
+
+.border-bottom{
+	border-bottom: solid 2px black;
 }
