@@ -120,9 +120,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                         <div class="form-group d-flex justify-content-center">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
-                        <div class="form-group d-flex justify-content-center">
-                        <p>Don't have an account? <a  class="ForgetPwd" value="Login" href="register.php">Sign up now</a>.</p>
-                        </div>
+                        
                     </form>
                     </div>
                     </div>
