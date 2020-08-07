@@ -53,7 +53,8 @@ li:nth-child(3n+3) img{
 }
 
 h2 {
-	margin-left: 40px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 #student-list {
@@ -120,4 +121,9 @@ header {
 
 .border-bottom{
 	border-bottom: solid 2px black;
+}
+
+ul{
+    padding-left: 30px;
+	margin-right: 30px;
 }

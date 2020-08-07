@@ -114,7 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <h3>Sign Up</h3>
         <p class="d-flex justify-content-center">Please fill this form to create an account.</p>
         <div class="d-flex justify-content-center">
-        <form class="w-55 p-3" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group d-flex justify-content-center <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                 <input type="text" name="username" class="form-control"  placeholder="Username"  value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
@@ -129,7 +129,11 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group d-flex justify-content-center">
                 <input type="submit" class="login-form-2 btnSubmit" value="Submit">
-                <input type="reset" class="btn btn-default" value="Reset">
+            </div>
+            <div class="form-group d-flex justify-content-center">
+            <p>Want to reset the information? <input type="reset" class="btn btn-default" value="Reset"></p>
+
+                <!-- <input type="reset" class="btn btn-default" value="Reset"> -->
             </div>
         </form>
     </div>    
