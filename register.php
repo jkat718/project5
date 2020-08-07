@@ -99,37 +99,69 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta charset="UTF-8">
     <title>Sign Up</title>
     <connection rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body{ font: 14px sans-serif; }
-        .wrapper{ width: 350px; padding: 20px; }
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <!-- <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <link rel="stylesheet" href="css/login.css">
+
     </style>
 </head>
 <body>
     <div class="wrapper">
-        <h2>Sign Up</h2>
-        <p>Please fill this form to create an account.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
-                <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+
+    <div class="kim justify-content-center">
+    <div class="login-form-2">
+        <h3>Sign Up</h3>
+        <p class="d-flex justify-content-center">Please fill this form to create an account.</p>
+        <div class="d-flex justify-content-center">
+        <form class="w-55 p-3" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+            <div class="form-group d-flex justify-content-center <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                <input type="text" name="username" class="form-control"  placeholder="Username"  value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Password</label>
-                <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+            <div class="form-group d-flex justify-content-center <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                <input type="password" name="password" class="form-control"  placeholder="Password"  value="<?php echo $password; ?>">
                 <span class="help-block"><?php echo $password_err; ?></span>
             </div>
-            <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-                <label>Confirm Password</label>
-                <input type="password" name="confirm_password" class="form-control" value="<?php echo $confirm_password; ?>">
+            <div class="form-group d-flex justify-content-center <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
+                <input type="password" name="confirm_password"  placeholder="Confirm Password"  class="form-control" value="<?php echo $confirm_password; ?>">
                 <span class="help-block"><?php echo $confirm_password_err; ?></span>
             </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Submit">
+            <div class="form-group d-flex justify-content-center">
+                <input type="submit" class="login-form-2 btnSubmit" value="Submit">
                 <input type="reset" class="btn btn-default" value="Reset">
             </div>
-            <p>Already have an account? <a href="login.php">Login here</a>.</p>
         </form>
     </div>    
+    </div>
+    </div>
+
+<!-- 
+    <div class="wrapper">
+        <div class="login-form-2">
+                    <h3>Log In</h3>
+                    <p class="d-flex justify-content-center">Please fill in your credentials to log in.</p>
+                    <div class="d-flex justify-content-center">
+                    <form class="w-55 p-3"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+                        <div class="form-group d-flex justify-content-center <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+                            <input type="text"  name="username"  class="form-control" placeholder="Username" value="<?php echo $username; ?>" />
+                            <span class="help-block"><?php echo $username_err; ?></span>
+                        </div>
+                        <div class="form-group d-flex justify-content-center <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+                            <input type="password" name="password" class="form-control" placeholder="Your Password *" value="" />
+                            <span class="help-block"><?php echo $password_err; ?></span>
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                            <input type="submit" class="btnSubmit" value="Login" />
+                        </div>
+                        <div class="form-group d-flex justify-content-center">
+                        <p>Already have an account? <a href="login.php">Login here</a>.</p>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+ -->
+
+
 </body>
 </html>
