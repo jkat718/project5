@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Titillium+Web&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
 .login-container{
     margin-top: 5%;
     margin-bottom: 5%;
@@ -59,6 +62,7 @@
 }
 body{
     background: #004E98;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 h3,.text-light{
