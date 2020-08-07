@@ -82,5 +82,11 @@ h3,.text-light{
 
 .form-control {
     background-color: whitesmoke;
+    margin-left: 20px;
+
+}
+
+.help-block{
+    margin-left: 20px;
 }
 /* https://bootsnipp.com/snippets/z8aQr */
