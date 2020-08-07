@@ -21,6 +21,7 @@
 .btn-info {
 	background-color: #70C1B3;
 	margin-left: 40px;
+	margin-top: 40px;
 }
 #password {
 	margin-bottom: 10px; 
@@ -45,6 +46,8 @@ li:nth-child(3n+3) img{
 
 .nav-link {
 	float: right;
+	margin-right: 30px;
+	margin-top: 40px;
 }
 
 
