@@ -111,14 +111,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                     <form class="w-55 p-3"  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
                         <div class="form-group d-flex justify-content-center <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
                             <input type="text"  name="username"  class="form-control" placeholder="Username" value="<?php echo $username; ?>" />
-                           
+                            <span class="help-block"><?php echo $username_err; ?></span>
                         </div>
-                        <div class="help-block"><?php echo $username_err; ?></div>
                         <div class="form-group d-flex justify-content-center <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
                             <input type="password" name="password" class="form-control" placeholder="Your Password *" value="" />
+                            <span class="help-block"><?php echo $password_err; ?></span>
                         </div>
-                        <div class="help-block"><?php echo $password_err; ?></div>
-
                         <div class="form-group d-flex justify-content-center">
                             <input type="submit" class="btnSubmit" value="Login" />
                         </div>
