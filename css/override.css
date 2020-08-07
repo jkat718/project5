@@ -9,7 +9,7 @@
 	margin-right: auto; 
     margin-left:  auto; 
   	max-width: 1040px; 
-  	width: 100%;
+	width: 100%;
   	}
 
 
@@ -129,4 +129,8 @@ header {
 ul{
     padding-left: 30px;
 	margin-right: 30px;
+}
+
+.dropdown, .dropup{
+	margin-left: 5px
 }
