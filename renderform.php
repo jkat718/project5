@@ -11,7 +11,10 @@ function renderForm($id, $firstname, $lastname, $img, $blurb, $link, $error) {
 		<?php
 		// if there are any errors, display them
 		if ($error != '') {
-			echo '<div style="padding:4px; border:1px solid red; color:red;">'.$error.'</div>';
+			echo '<div style="padding:4px; border:1px solid red; color:red; text-align:center; max-width: 1040px;
+			width: 100%;
+			margin-right: auto;
+			margin-left: auto;">'.$error.'</div>';
 		}
 		?>
 		<div class="container">
