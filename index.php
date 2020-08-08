@@ -1,12 +1,16 @@
+<?php session_start(); ?>
 <?php include "inc/html-top.php"; ?>
 
 	<body class="container-fluid">
 		<header id="index-header">
 			<h1>CSC 174</h1>
 <!-- if logged in -->
+<?php if(isset($_SESSION["loggedin"]) && $_SESSION["loggedin"] === true) { ?>
 			<a href="logout.php">Log Out</a>
 <!-- if NOT logged in -->
+<?php } else { ?>
 			<a href="login.php">Log In</a>
+<?php } ?>
 		</header>
 
 			<!-- <div class="row">
