@@ -17,7 +17,7 @@
       include('inc/connect-db.php');
 
       // get results from database
-      $result = mysqli_query($connection, "SELECT * FROM student_index");
+      $result = mysqli_query($connection, "SELECT * FROM student_index ORDER BY firstname");
       ?>
       
       <h2 id="student-list">Students</h2>
